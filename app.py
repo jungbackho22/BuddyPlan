@@ -402,7 +402,7 @@ if "responses" not in st.session_state:
 if "profile" not in st.session_state:
     st.session_state.profile = {"name": "", "age": 10, "gender": "선택안함"}
 
-st.title("사회성 6요인 검사")
+st.title("버디플랜")
 st.caption("6가지 주요 사회성 요인을 분석하고,아이에게 맞는 사회 훈련을 추천해 드립니다.")
 
 tab1, tab2, tab3 = st.tabs(["검사(1문항씩)", "결과/추천", "내 기록"])
