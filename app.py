@@ -9,7 +9,7 @@ from db import init_db, insert_assessment, latest_assessment, list_assessments, 
 
 DATA_DIR = Path(__file__).parent / "data"
 
-st.set_page_config(page_title="사회성 6요인 검사", layout="centered")
+st.set_page_config(page_title="Buddy-Plan", layout="centered")
 
 def load_json(name: str) -> dict:
     return json.loads((DATA_DIR / name).read_text(encoding="utf-8"))
@@ -31,8 +31,8 @@ def level_comment(level: str) -> str:
         return "상황에 따라 어려움이 나타날 수 있어, 시나리오 연습을 권장합니다."
     return "이 영역에서의 어려움이 비교적 크게 보고되었습니다. 추천 시나리오로 단계적으로 연습해보세요."
 
-st.title("사회성 6요인 검사")
-st.caption("30문항(1~6점) 기반으로 6요인 '어려움' 수준을 계산하고 시나리오를 추천합니다.")
+st.title("Buddy-Plan")
+st.caption("30문항을 통해 6가지 주요 사회성 요인을 분석하고,당신에게 맞는 사회적 시나리오를 추천해 드립니다.")
 
 tab1, tab2, tab3 = st.tabs(["검사", "결과/추천", "내 기록"])
 
