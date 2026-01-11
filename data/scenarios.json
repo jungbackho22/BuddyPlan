@@ -1,0 +1,5012 @@
+{
+  "scenarios": [
+    {
+      "id": "DApr22",
+      "code": "Apr",
+      "title": "학교 구성원과 적절하게 소통하기",
+      "detail": "나는 다른 사람들과 어울리거나 이야기 하고 싶다.",
+      "tags": [
+        "교실",
+        "다수",
+        "대화끼어들기",
+        "시험",
+        "친구",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 1,
+          "speaker": "권유나",
+          "text": "뒷말 생략"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "쉽게 포기하는 건 좋지 않아."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "친구들과 함께 공부하면 하나라도 더 외울 수 있을 거야."
+        }
+      ]
+    },
+    {
+      "id": "DApr23",
+      "code": "Apr",
+      "title": "학교 구성원과 적절하게 소통하기",
+      "detail": "나는 다른 사람들과 어울리거나 이야기 하고 싶다.",
+      "tags": [
+        "교실",
+        "다수",
+        "대화끼어들기",
+        "모임",
+        "소식공유",
+        "소식전달",
+        "안친한친구",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 3,
+          "speaker": "강은수",
+          "text": "속마음"
+        },
+        {
+          "order": 4,
+          "speaker": "강은수",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "나한테만 소식을 직접 전달해달라는 건 무리한 요구야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "친구들과 어울리면 쉽게 소식을 들을 수 있어."
+        }
+      ]
+    },
+    {
+      "id": "DApr24",
+      "code": "Apr",
+      "title": "부탁이 필요한 상황에서 적절한 인사말",
+      "detail": "나는 다른 사람들과 어울리거나 이야기 하고 싶다.",
+      "tags": [
+        "1대1",
+        "도서관",
+        "부탁",
+        "빌리기",
+        "친구",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 10,
+          "speaker": "권유나",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "도서관에서 책을 빌리려면 엄청 오래 걸릴 거야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "책을 깨끗하게 보겠다고 약속하면 친구는 책을 빌려줄 거야."
+        }
+      ]
+    },
+    {
+      "id": "DApr31",
+      "code": "Apr",
+      "title": "생각이나 의견 표현하기",
+      "detail": "나는 어른들의 도움 없이도 다른 사람들과 어울리거나 이야기할  수 있다.",
+      "tags": [
+        "1대1",
+        "교실",
+        "모둠활동",
+        "친구",
+        "팀짜기",
+        "표현",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 4,
+          "speaker": "최진혁",
+          "text": "적극적"
+        },
+        {
+          "order": 5,
+          "speaker": "함서진",
+          "text": "적극적"
+        },
+        {
+          "order": 6,
+          "speaker": "황주아",
+          "text": "소극적"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "내가 원하는 것은 내가 직접 표현하는 것이 좋아"
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "좋아하는 친구가 있으면 같은 모둠을 하자고 제안해보자."
+        }
+      ]
+    },
+    {
+      "id": "DApr32",
+      "code": "Apr",
+      "title": "생각이나 의견 표현하기",
+      "detail": "나는 어른들의 도움 없이도 다른 사람들과 어울리거나 이야기할  수 있다.",
+      "tags": [
+        "1대1",
+        "교실",
+        "질문",
+        "친구",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 1,
+          "speaker": "박준우",
+          "text": "혼잣말/ 즐거움"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "선생님은 모든 걸 알고 있는 사람이 아니야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "친구한테 궁금한 게 있으면 직접 물어보는 것이 좋아."
+        }
+      ]
+    },
+    {
+      "id": "DApr41",
+      "code": "Apr",
+      "title": "신변안전을 위한 선택하기",
+      "detail": "나는 또래들에게 먼저 다가가거나 말을 걸 수 있다.",
+      "tags": [
+        "길잃음",
+        "길찾기",
+        "도움받기",
+        "배터리없음",
+        "소풍",
+        "위험상황",
+        "찾아가기",
+        "초면",
+        "현장체험학습"
+      ],
+      "dialogues": [
+        {
+          "order": 1,
+          "speaker": "황주아",
+          "text": "교복"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "혼자서 계속 찾으면 시간이 오래 걸릴 거야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "같은 학교 학생이니까 따라가면 모임 장소에 쉽게 도착할 거야."
+        }
+      ]
+    },
+    {
+      "id": "DApr42",
+      "code": "Apr",
+      "title": "인사하기",
+      "detail": "나는 또래들에게 먼저 다가가거나 말을 걸 수 있다.",
+      "tags": [
+        "등교길",
+        "예의",
+        "인사",
+        "처음만나는사람",
+        "초면"
+      ],
+      "dialogues": [
+        {
+          "order": 3,
+          "speaker": "강은수",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "처음보는 사이지만, 엄마가 소개해줬잖아."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "소개를 받았으면 서로 인사를 하는 게 예의야."
+        }
+      ]
+    },
+    {
+      "id": "DApr43",
+      "code": "Apr",
+      "title": "요구",
+      "detail": "나는 또래들에게 먼저 다가가거나 말을 걸 수 있다.",
+      "tags": [
+        "1대1",
+        "교실",
+        "교환",
+        "말걸기",
+        "안친한친구",
+        "용기",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 9,
+          "speaker": "황주아",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "포토카드를 포기하면 계속 아쉬움이 남을 거야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "용기를 내서 말을 걸면, 원하는 걸 얻을 수 있을지도 몰라."
+        }
+      ]
+    },
+    {
+      "id": "DApr51",
+      "code": "Apr",
+      "title": "상황이나 대상에 따라 필요한 것 선택하기",
+      "detail": "나는 혼자 있는 것보다 다른 사람들과 같이 있는 것이 좋다.",
+      "tags": [
+        "교실",
+        "다수",
+        "배고픔",
+        "제안",
+        "친구",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 2,
+          "speaker": "함서진",
+          "text": "속마음"
+        },
+        {
+          "order": 3,
+          "speaker": "함서진",
+          "text": "속마음"
+        },
+        {
+          "order": 4,
+          "speaker": "함서진",
+          "text": "속마음"
+        },
+        {
+          "order": 5,
+          "speaker": "함서진",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "내가 가진 돈이 부족해도, 친구들과 돈을 합치면 다양한 메뉴를 먹을 수 있어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "갑자기 용돈을 올려달라고 하면, 엄마가 곤란해 하실 거야."
+        }
+      ]
+    },
+    {
+      "id": "DApr52",
+      "code": "Apr",
+      "title": "나는 혼자 있는 것보다 다른 사람들과 같이 있는 것이 좋다.",
+      "detail": "나는 혼자 있는 것보다 다른 사람들과 같이 있는 것이 좋다.",
+      "tags": [
+        "공원",
+        "사회적회피",
+        "야외",
+        "위험상황",
+        "혼자"
+      ],
+      "dialogues": [
+        {
+          "order": 7,
+          "speaker": "박준우",
+          "text": "고통"
+        },
+        {
+          "order": 9,
+          "speaker": "박준우",
+          "text": "울상"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "구급상자를 항상 가지고 다니는 건 힘든 일이야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "친구들과 함께 다니면 위험한 일을 당했을 때 도움을 받을 수 있어."
+        }
+      ]
+    },
+    {
+      "id": "DApr53",
+      "code": "Apr",
+      "title": "나는 혼자 있는 것보다 다른 사람들과 같이 있는 것이 좋다.",
+      "detail": "나는 혼자 있는 것보다 다른 사람들과 같이 있는 것이 좋다.",
+      "tags": [
+        "도움받기",
+        "친구",
+        "팀워크",
+        "파티준비",
+        "함께",
+        "협력"
+      ],
+      "dialogues": [
+        {
+          "order": 3,
+          "speaker": "황주아",
+          "text": "신남"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "아무리 바쁘게 움직여도 혼자서 모든 걸 다하는 건 쉽지 않아."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "친구들과 함께 준비하면 더 빨리 끝나고, 친구들과도 더 친해질 수도 있어."
+        }
+      ]
+    },
+    {
+      "id": "DApr54",
+      "code": "Apr",
+      "title": "상황이나 대상에 따라 필요한 것 선택하기",
+      "detail": "나는 혼자 있는 것보다 다른 사람들과 같이 있는 것이 좋다.",
+      "tags": [
+        "길찾기",
+        "도움받기",
+        "도움요청",
+        "친구",
+        "함께"
+      ],
+      "dialogues": [
+        {
+          "order": 2,
+          "speaker": "유재은",
+          "text": "고민/혼잣말"
+        },
+        {
+          "order": 3,
+          "speaker": "유재은",
+          "text": "고민/혼잣말"
+        },
+        {
+          "order": 4,
+          "speaker": "황주아",
+          "text": "큰 혼잣말"
+        },
+        {
+          "order": 6,
+          "speaker": "유재은",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "처음 가는 전시회장을 혼자 가면 길을 잃을 지도 몰라."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "친구과 함께 가면 안심도 되고, 문제가 생기면 도움을 받을 수도 있어."
+        }
+      ]
+    },
+    {
+      "id": "DAtb11",
+      "code": "Atb",
+      "title": "다른 사람의 감정과 상황을 고려하여 행동하기",
+      "detail": "주변에서 무슨 일이 일어나고 있는지 잘 알아차리지 못하거나 놓쳐서 둔하다는(혹은 주변에 관심이 없다는) 말을 들을 때가 있다",
+      "tags": [
+        "걱정",
+        "교실",
+        "날씨",
+        "눈치",
+        "배려",
+        "센스",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 2,
+          "speaker": "박준우",
+          "text": "속마음"
+        },
+        {
+          "order": 3,
+          "speaker": "박준우",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "쌀쌀한 바람에 재은이가 많이 추울 거야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "친구가 부탁하지 않아도 필요한 걸 먼저 해주면, 친구는 고마워할 거야."
+        }
+      ]
+    },
+    {
+      "id": "DAtb12",
+      "code": "Atb",
+      "title": "다른 사람의 감정과 상황을 고려하여 행동하기",
+      "detail": "주변에서 무슨 일이 일어나고 있는지 잘 알아차리지 못하거나 놓쳐서 둔하다는(혹은 주변에 관심이 없다는) 말을 들을 때가 있다",
+      "tags": [
+        "걱정",
+        "교실",
+        "눈치",
+        "배려",
+        "센스",
+        "친구",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 6,
+          "speaker": "박준우",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "에어컨 설정 온도가 충분히 낮지 않아서, 서진이가 더워하는 거야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "친구가 부탁하지 않아도 필요한 걸 먼저 해주면, 친구는 고마워할 거야."
+        }
+      ]
+    },
+    {
+      "id": "DAtb14",
+      "code": "Atb",
+      "title": "다양한 단서를 활용하여 생각 파악하기",
+      "detail": "주변에서 무슨 일이 일어나고 있는지 잘 알아차리지 못하거나 놓쳐서 둔하다는(혹은 주변에 관심이 없다는) 말을 들을 때가 있다",
+      "tags": [
+        "교실",
+        "눈치",
+        "배려",
+        "점심시간",
+        "착한거짓말",
+        "친구",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 4,
+          "speaker": "최진혁",
+          "text": "놀람"
+        },
+        {
+          "order": 5,
+          "speaker": "최진혁",
+          "text": "땀"
+        },
+        {
+          "order": 7,
+          "speaker": "최진혁",
+          "text": "당황"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "진혁이는 재은이가 상처 받을까봐 착한 거짓말을 하고 있는 거야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "상대방의 본심을 알기 위해선 표정과 말투도 잘 살펴야 해."
+        }
+      ]
+    },
+    {
+      "id": "DAtb31",
+      "code": "Atb",
+      "title": "내 생각이 독특해서 잘 이해가 안 가거나 특이하다는 말을 들을 때가 있다.",
+      "detail": "내 생각이 독특해서 잘 이해가 안 가거나 특이하다는 말을 들을 때가 있다.",
+      "tags": [
+        "1대1",
+        "교실",
+        "대화",
+        "소통",
+        "친구",
+        "표현",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 3,
+          "speaker": "권유나",
+          "text": "능글맞게"
+        },
+        {
+          "order": 4,
+          "speaker": "유재은",
+          "text": "톤을 높게"
+        },
+        {
+          "order": 7,
+          "speaker": "권유나",
+          "text": "능글맞게"
+        },
+        {
+          "order": 8,
+          "speaker": "유재은",
+          "text": "더 하이톤으로"
+        },
+        {
+          "order": 9,
+          "speaker": "유재은",
+          "text": "목소리만"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "사람들은 목소리의 진동수를 신경쓰면서 대화하지 않아."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "대화를 할 때는 상대방이 공감할 수 있는 표현과 단어를 쓰는 게 좋아."
+        }
+      ]
+    },
+    {
+      "id": "DAtb41",
+      "code": "Atb",
+      "title": "다른 사람의 입장 되어보기",
+      "detail": "나는 다른 사람들이 무슨 생각을 하는지 잘 모르겠다.",
+      "tags": [
+        "감정분석",
+        "감정파악",
+        "공감",
+        "교실",
+        "상황이해",
+        "짜증",
+        "학교",
+        "혼자"
+      ],
+      "dialogues": [
+        {
+          "order": 5,
+          "speaker": "권유나",
+          "text": "당황"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "짜증난 목소리로",
+          "is_correct": true,
+          "rationale": "유나는 형광펜이 필요해서 산 거야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "필요한 순간에 형광펜이 나오지 않으니까 짜증부터 날 거야."
+        }
+      ]
+    },
+    {
+      "id": "DAtb42",
+      "code": "Atb",
+      "title": "다른 사람의 입장 되어보기, 다른 사람이 처한 상황에 적절한 말과 행동 표현하기",
+      "detail": "나는 다른 사람들이 무슨 생각을 하는지 잘 모르겠다.",
+      "tags": [
+        "가족",
+        "걱정",
+        "공감",
+        "배려",
+        "상황이해",
+        "집",
+        "형제자매"
+      ],
+      "dialogues": [
+        {
+          "order": 7,
+          "speaker": "황주아",
+          "text": "속마음"
+        },
+        {
+          "order": 11,
+          "speaker": "황주아",
+          "text": "놀람"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "컴퓨터를 혼자하는 것보다 가족의 건강이 훨씬 더 중요해."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "언니가 다쳤다는 소식을 듣고 주아는 걱정부터 할 거야."
+        }
+      ]
+    },
+    {
+      "id": "DAtb43",
+      "code": "Atb",
+      "title": "다른 사람의 입장 되어보기",
+      "detail": "나는 다른 사람들이 무슨 생각을 하는지 잘 모르겠다.",
+      "tags": [
+        "감정파악",
+        "공감",
+        "대화",
+        "쇼핑시설",
+        "아쉬움",
+        "친구"
+      ],
+      "dialogues": [
+        {
+          "order": 7,
+          "speaker": "권유나",
+          "text": "놀람"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "하루만 늦게 샀으면 유나도 더 싸게 구매할 수 있었을 거야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "싸게 살 수 있는 걸 비싸게 샀으니까 유나는 아쉬워 할 거야."
+        }
+      ]
+    },
+    {
+      "id": "DAtb62",
+      "code": "Atb",
+      "title": "본 시나리오처럼 보편적인 쓰임새가 아닌 것도 가르쳐주는 걸로..?",
+      "detail": "나는 물건을 원래의 용도와 다르게 사용할 수 있다. (예: 30 cm 자로 지휘하는 흉내를 낸다)",
+      "tags": [
+        "대체물활용",
+        "문제해결",
+        "시간관리",
+        "유연성",
+        "지각위기",
+        "집",
+        "형제자매"
+      ],
+      "dialogues": [
+        {
+          "order": 3,
+          "speaker": "황주아",
+          "text": "혼잣말"
+        },
+        {
+          "order": 4,
+          "speaker": "황주아",
+          "text": "혼잣말"
+        },
+        {
+          "order": 5,
+          "speaker": "황주아",
+          "text": "혼잣말"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "급하면 선풍기로도 머리를 말릴 수 있어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "물건은 상황에 따라 적절하게 활용될 수 있어."
+        }
+      ]
+    },
+    {
+      "id": "DAtb71",
+      "code": "Atb",
+      "title": "다른 사람의 입장 되어보기",
+      "detail": "나는 드라마나 영화를 볼 때 내용이 잘 이해가 안 된다.",
+      "tags": [
+        "감정분석",
+        "드라마",
+        "상황이해",
+        "실망",
+        "집",
+        "혼자"
+      ],
+      "dialogues": [
+        {
+          "order": 5,
+          "speaker": "리오",
+          "text": "처량/혼자말"
+        },
+        {
+          "order": 6,
+          "speaker": "리오",
+          "text": "처량/혼자말"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "밤이 될 때까지 남자 주인공이 기다리는 여자가 나타나지 않았어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "약속 장소에 나타나지 않아서 실망한 거야."
+        }
+      ]
+    },
+    {
+      "id": "DAtb72",
+      "code": "Atb",
+      "title": "영상 매체 자료",
+      "detail": "나는 드라마나 영화를 볼 때 내용이 잘 이해가 안 된다.",
+      "tags": [
+        "드라마",
+        "상황이해",
+        "속마음",
+        "집",
+        "혼자"
+      ],
+      "dialogues": [
+        {
+          "order": 3,
+          "speaker": "리오",
+          "text": "속마음"
+        },
+        {
+          "order": 4,
+          "speaker": "부장님",
+          "text": "목소리만"
+        },
+        {
+          "order": 5,
+          "speaker": "리오",
+          "text": "밝은 목소리"
+        },
+        {
+          "order": 6,
+          "speaker": "리오",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "다른 등장인물들은 주인공의 속마음을 들을 수 없어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "주인공의 속마음은 오직 시청자들만 들을 수 있어."
+        }
+      ]
+    },
+    {
+      "id": "DAtb73",
+      "code": "Atb",
+      "title": "다른 사람의 입장 되어보기",
+      "detail": "나는 드라마나 영화를 볼 때 내용이 잘 이해가 안 된다.",
+      "tags": [
+        "감정분석",
+        "드라마",
+        "불만",
+        "상황이해",
+        "연애",
+        "질투",
+        "집",
+        "혼자"
+      ],
+      "dialogues": [
+        {
+          "order": 3,
+          "speaker": "여자친구 역",
+          "text": "실루엣"
+        },
+        {
+          "order": 4,
+          "speaker": "리오",
+          "text": "독백"
+        },
+        {
+          "order": 5,
+          "speaker": "리오",
+          "text": "독백"
+        },
+        {
+          "order": 6,
+          "speaker": "리오",
+          "text": "독백"
+        },
+        {
+          "order": 7,
+          "speaker": "리오",
+          "text": "독백"
+        },
+        {
+          "order": 8,
+          "speaker": "리오",
+          "text": "독백"
+        },
+        {
+          "order": 9,
+          "speaker": "리오",
+          "text": "독백"
+        },
+        {
+          "order": 10,
+          "speaker": "수진 역",
+          "text": "목소리만"
+        },
+        {
+          "order": 12,
+          "speaker": "여자친구 역",
+          "text": "실루엣/짜증"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "내 연인이 다른 사람보다 나에게 더 신경 써주길 바라는 사람이 있어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "남자 주인공이 다른 여자에게 신경 쓰는 것을 보고, 여자 주인공이 질투한 거야."
+        }
+      ]
+    },
+    {
+      "id": "DAtb74",
+      "code": "Atb",
+      "title": "나는 드라마나 영화를 볼 때 내용이 잘 이해가 안 된다.",
+      "detail": "나는 드라마나 영화를 볼 때 내용이 잘 이해가 안 된다.",
+      "tags": [
+        "감정분석",
+        "숨은뜻파악",
+        "전쟁드라마",
+        "죽음",
+        "집",
+        "혼자"
+      ],
+      "dialogues": [
+        {
+          "order": 4,
+          "speaker": "리오",
+          "text": "당황"
+        },
+        {
+          "order": 5,
+          "speaker": "지휘관",
+          "text": "실루엣만"
+        },
+        {
+          "order": 6,
+          "speaker": "리오",
+          "text": "깨달음"
+        },
+        {
+          "order": 7,
+          "speaker": "지휘관",
+          "text": "실루엣만"
+        },
+        {
+          "order": 8,
+          "speaker": "리오",
+          "text": "고함"
+        },
+        {
+          "order": 9,
+          "speaker": "리오",
+          "text": "눈이 커짐"
+        },
+        {
+          "order": 10,
+          "speaker": "리오",
+          "text": "죽어감"
+        },
+        {
+          "order": 11,
+          "speaker": "리오",
+          "text": "죽어감"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "지금 주인공은 총에 맞아서 목숨이 위중한 상태야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "부모님보다 먼저 하늘나라에 가 있겠다는 뜻이야."
+        }
+      ]
+    },
+    {
+      "id": "DIdm12",
+      "code": "Idm",
+      "title": "친교",
+      "detail": "나는 농담이나 유머를 자주 쓰는 편이다.",
+      "tags": [
+        "교실",
+        "농담",
+        "대화",
+        "유머",
+        "유행",
+        "장난",
+        "친구",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 3,
+          "speaker": "권유나",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "유행하는 놀이를 하면 친구들과 쉽게 어울릴 수 있어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "친구들 사이에 인기 있는 놀이와 유행어에도 관심을 가져 보자."
+        }
+      ]
+    },
+    {
+      "id": "DIdm13",
+      "code": "Idm",
+      "title": "감사, 위로 등",
+      "detail": "나는 농담이나 유머를 자주 쓰는 편이다.",
+      "tags": [
+        "1대1",
+        "걱정",
+        "농담",
+        "대화",
+        "유머",
+        "집",
+        "친구",
+        "통화"
+      ],
+      "dialogues": [
+        {
+          "order": 1,
+          "speaker": "함서진",
+          "text": "하품"
+        },
+        {
+          "order": 3,
+          "speaker": "함서진",
+          "text": "목소리만"
+        },
+        {
+          "order": 11,
+          "speaker": "함서진",
+          "text": "속마음"
+        },
+        {
+          "order": 12,
+          "speaker": "함서진",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "농담을 잘 이용하면 친구의 걱정을 줄일 수도 있어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "친구의 걱정을 덜어주고 싶을 때, 농담을 사용해보자."
+        }
+      ]
+    },
+    {
+      "id": "DIdm14",
+      "code": "Idm",
+      "title": "위로, 격려",
+      "detail": "나는 농담이나 유머를 자주 쓰는 편이다.",
+      "tags": [
+        "교실",
+        "농담",
+        "대화",
+        "유머",
+        "친구",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 5,
+          "speaker": "권유나",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "농담을 잘 이용하면 친구의 걱정을 줄일 수도 있어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "친구를 응원하고 싶을 때도 농담을 사용해보자."
+        }
+      ]
+    },
+    {
+      "id": "DIdm32",
+      "code": "Idm",
+      "title": "나는 책이나 대화 중에 나오는 관용적 표현이나 속담이 잘 이해되지 않을 때가 있다. (예: 귀가 얇다, 목이 빠지게 기다리다, 바가지를 쓰다 등)",
+      "detail": "나는 책이나 대화 중에 나오는 관용적 표현이나 속담이 잘 이해되지 않을 때가 있다. (예: 귀가 얇다, 목이 빠지게 기다리다, 바가지를 쓰다 등)",
+      "tags": [
+        "1대1",
+        "관용적표현",
+        "교실",
+        "배꼽이빠진다",
+        "의미파악",
+        "친구",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 1,
+          "speaker": "함서진",
+          "text": "신나서"
+        },
+        {
+          "order": 3,
+          "speaker": "함서진",
+          "text": "신나서"
+        },
+        {
+          "order": 6,
+          "speaker": "함서진",
+          "text": "풋에 악센트"
+        },
+        {
+          "order": 9,
+          "speaker": "유재은",
+          "text": "웃어서 힘듦"
+        },
+        {
+          "order": 10,
+          "speaker": "함서진",
+          "text": "풋에 악센트"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "배꼽은 탯줄이 떨어진 흔적으로, 빠지거나 사라지지 않아."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "배꼽이 빠진다는 말은 “많이 재미있다.”는 뜻이야."
+        }
+      ]
+    },
+    {
+      "id": "DIdm42",
+      "code": "Idm",
+      "title": "다양한 상황에서 친구에게 적절한 말과 행동 사용하기",
+      "detail": "하얀 거짓말도 나쁜 거짓말이라고 생각한다 (하얀 거짓말의 예: 엄마가 더 좋지만 아빠가 좋다고 아빠에게 말하는 것 등)",
+      "tags": [
+        "1대1",
+        "그림",
+        "대화",
+        "미술시간",
+        "배려",
+        "예의",
+        "친구",
+        "칭찬",
+        "하얀거짓말",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 3,
+          "speaker": "함서진",
+          "text": "속마음"
+        },
+        {
+          "order": 4,
+          "speaker": "함서진",
+          "text": "속마음"
+        },
+        {
+          "order": 9,
+          "speaker": "유재은",
+          "text": "속마음"
+        },
+        {
+          "order": 10,
+          "speaker": "유재은",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "상대방의 기분을 상하지 않게 하려면 가끔 거짓말을 해야할 때가 있어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "그런 거짓말을 하얀 거짓말이라고도 한단다."
+        }
+      ]
+    },
+    {
+      "id": "DIdm52",
+      "code": "Idm",
+      "title": "나는 책이나 말의 숨은 뜻을 이해하기가 어렵다. (예: 은유, 비유, 반어법 등을 이해하기 어렵다)",
+      "detail": "나는 책이나 말의 숨은 뜻을 이해하기가 어렵다. (예: 은유, 비유, 반어법 등을 이해하기 어렵다)",
+      "tags": [
+        "1대1",
+        "고마움",
+        "도움받기",
+        "비유",
+        "안도",
+        "야외",
+        "친구"
+      ],
+      "dialogues": [
+        {
+          "order": 1,
+          "speaker": "함서진",
+          "text": "다급"
+        },
+        {
+          "order": 2,
+          "speaker": "함서진",
+          "text": "다급"
+        },
+        {
+          "order": 3,
+          "speaker": "함서진",
+          "text": "다급"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "서진이는 준우를 만난 덕분에 화장실을 갈 수 있어서 기분이 좋은 상태야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "그래서 준우를 선물에 비유한 거야."
+        }
+      ]
+    },
+    {
+      "id": "DIdm53",
+      "code": "Idm",
+      "title": "다른 사람의 감정과 상황 인식하기",
+      "detail": "나는 책이나 말의 숨은 뜻을 이해하기가 어렵다. (예: 은유, 비유, 반어법 등을 이해하기 어렵다)",
+      "tags": [
+        "1대1",
+        "교실",
+        "반어법",
+        "시험",
+        "실망",
+        "위로",
+        "친구",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 1,
+          "speaker": "권유나",
+          "text": "불현듯"
+        },
+        {
+          "order": 2,
+          "speaker": "권유나",
+          "text": "눈 질끈"
+        },
+        {
+          "order": 3,
+          "speaker": "권유나",
+          "text": "실망"
+        },
+        {
+          "order": 4,
+          "speaker": "권유나",
+          "text": "한숨"
+        },
+        {
+          "order": 6,
+          "speaker": "함서진",
+          "text": "촐싹"
+        },
+        {
+          "order": 7,
+          "speaker": "권유나",
+          "text": "반어"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "지금 유나가 신경 쓰는 건 시험에 떨어졌다는 사실이지."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "유나는 반어법을 이용해서 별로 대단하지 않다는 걸 강조한 거야."
+        }
+      ]
+    },
+    {
+      "id": "DNvr13",
+      "code": "Nvr",
+      "title": "위로",
+      "detail": "나는 다른 사람의 기분에 적절한 반응을 할 수 있다. (예: 슬퍼하면 위로한다, 기뻐하면 같이 기뻐하거나 축하해준다 등)",
+      "tags": [
+        "격려",
+        "교실",
+        "다수",
+        "시험",
+        "위로",
+        "친구",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 6,
+          "speaker": "박준우",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "나한테는 문제가 쉬웠지만 다른 사람들 한테는 어려웠을 수도 있어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "친구들을 무시하거나 약올리는 행동은 하면 안 돼."
+        }
+      ]
+    },
+    {
+      "id": "DNvr14",
+      "code": "Nvr",
+      "title": "격려",
+      "detail": "나는 다른 사람의 기분에 적절한 반응을 할 수 있다. (예: 슬퍼하면 위로한다, 기뻐하면 같이 기뻐하거나 축하해준다 등)",
+      "tags": [
+        "1대1",
+        "격려",
+        "교실",
+        "배려",
+        "성취",
+        "인정",
+        "친구",
+        "칭찬",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 1,
+          "speaker": "함서진",
+          "text": "기쁨"
+        },
+        {
+          "order": 4,
+          "speaker": "함서진",
+          "text": "용기백배"
+        },
+        {
+          "order": 5,
+          "speaker": "권유나",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "나한테는 쉬운 일도 친구에게는 힘든 것일 수 있어."
+        },
+        {
+          "label": "B",
+          "text": "비꼼",
+          "is_correct": false,
+          "rationale": "친구들을 무시하는 행동은 하면 안 돼."
+        }
+      ]
+    },
+    {
+      "id": "DNvr21",
+      "code": "Nvr",
+      "title": "대중교통 이용하기",
+      "detail": "나는 나의 기분을 표정과 행동으로 적절히 표현할 수 있다. (예: 속상할 때 표정을 찡그린다, 즐거울 때 웃는다 등)",
+      "tags": [
+        "공공장소",
+        "다수",
+        "모르는사람",
+        "불편",
+        "이동",
+        "지하철",
+        "짜증",
+        "표현"
+      ],
+      "dialogues": [
+        {
+          "order": 3,
+          "speaker": "최진혁",
+          "text": "속마음"
+        },
+        {
+          "order": 4,
+          "speaker": "최진혁",
+          "text": "속마음"
+        },
+        {
+          "order": 5,
+          "speaker": "최진혁",
+          "text": "속마음/짜증"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "일부러 그런 것도 아닌데, 짜증을 내거나 따지는 건 옳은 행동이 아니야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "도착역까지 참아보고, 참기 힘들면 기분을 조절할 수 있는 방법을 생각해보자."
+        }
+      ]
+    },
+    {
+      "id": "DNvr22",
+      "code": "Nvr",
+      "title": "자기 감정 인식하기, 표현하기",
+      "detail": "나는 나의 기분을 표정과 행동으로 적절히 표현할 수 있다. (예: 속상할 때 표정을 찡그린다, 즐거울 때 웃는다 등)",
+      "tags": [
+        "감정인식",
+        "버스정류장",
+        "불쾌함",
+        "비",
+        "야외",
+        "옷젖음",
+        "짜증",
+        "혼자"
+      ],
+      "dialogues": [
+        {
+          "order": 2,
+          "speaker": "유재은",
+          "text": "긍정"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "재은이는 더위가 가시는 걸 원한 거지, 물에 젖는 걸 원한 게 아니야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "사람들은 웅덩이에 고인 더러운 물이 옷에 튀면 짜증을 내."
+        }
+      ]
+    },
+    {
+      "id": "DNvr23",
+      "code": "Nvr",
+      "title": "자기 감정 인식하기, 표현하기",
+      "detail": "나는 나의 기분을 표정과 행동으로 적절히 표현할 수 있다. (예: 속상할 때 표정을 찡그린다, 즐거울 때 웃는다 등)",
+      "tags": [
+        "감정인식",
+        "날씨",
+        "우산",
+        "짜증",
+        "형제자매"
+      ],
+      "dialogues": [
+        {
+          "order": 4,
+          "speaker": "황주아",
+          "text": "볼멘목소리"
+        },
+        {
+          "order": 6,
+          "speaker": "황주아",
+          "text": "주눅"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "주아는 우산을 가져가는 걸 싫어했어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "언니 때문에 억지로 가져 갔는데, 비가 안 오니까 불만이 생겼을 거야."
+        }
+      ]
+    },
+    {
+      "id": "DNvr33",
+      "code": "Nvr",
+      "title": "상대방이 관심 있는 주제로 대화를 시작하거나 이어 가기",
+      "detail": "다른 사람과 상호작용할 때 나는 상황에 따라 적절한 행동을 할 수 있다. (예: 눈맞춤한다, 어른에게는 고개 숙여 인사한다, 친구에게는 손을 흔들며 인사한다 등)",
+      "tags": [
+        "1대1",
+        "교실",
+        "대화",
+        "배려",
+        "비언어적표현",
+        "친구",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 8,
+          "speaker": "박준우",
+          "text": "속마음"
+        },
+        {
+          "order": 9,
+          "speaker": "박준우",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "수업 시간에는 수업에 집중을 해야 해."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "선생님이 보는 앞에서 팔짱을 끼는 것은 예의 없는 행동이야."
+        }
+      ]
+    },
+    {
+      "id": "DNvr34",
+      "code": "Nvr",
+      "title": "다양한 상황에서 친구에게 적절한 말과 행동 사용하기",
+      "detail": "다른 사람과 상호작용할 때 나는 상황에 따라 적절한 행동을 할 수 있다. (예: 눈맞춤한다, 어른에게는 고개 숙여 인사한다, 친구에게는 손을 흔들며 인사한다 등)",
+      "tags": [
+        "경쟁",
+        "수업시간",
+        "축하",
+        "친구",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 3,
+          "speaker": "권유나",
+          "text": "속마음"
+        },
+        {
+          "order": 4,
+          "speaker": "권유나",
+          "text": "속마음"
+        },
+        {
+          "order": 6,
+          "speaker": "권유나",
+          "text": "속마음"
+        },
+        {
+          "order": 7,
+          "speaker": "권유나",
+          "text": "속마음"
+        },
+        {
+          "order": 10,
+          "speaker": "권유나",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "친구가 칭찬을 받을 행동을 했을 때는 축하해줘야 해."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "속으로는 아쉽긴 해도, 잘한 재은이에게 박수를 쳐주는 게 적절해."
+        }
+      ]
+    },
+    {
+      "id": "DNvr41",
+      "code": "Nvr",
+      "title": "지역사회에서 겪은 일 말하기",
+      "detail": "다른 사람과 대화할 때 나는 적절한 어조, 말투, 말의 크기를 사용하여 말할 수 있다 (예: 도서관에서는 조용히 말한다, 멀리 있는 사람에게는 큰 소리로 말한다 등).",
+      "tags": [
+        "공손",
+        "교환환불",
+        "모르는사람",
+        "쇼핑시설",
+        "예의"
+      ],
+      "dialogues": [
+        {
+          "order": 2,
+          "speaker": "권유나",
+          "text": "짜증"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "짜증",
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "label": "B",
+          "text": "정중하게",
+          "is_correct": true,
+          "rationale": "점원한테 주문이나 요청을 할 때는 항상 정중하게 말해야 해."
+        }
+      ]
+    },
+    {
+      "id": "DNvr42",
+      "code": "Nvr",
+      "title": "학교나 지역사회에서 지켜야 할 공공질서 또는 공중위생 규칙 지키기",
+      "detail": "다른 사람과 대화할 때 나는 적절한 어조, 말투, 말의 크기를 사용하여 말할 수 있다 (예: 도서관에서는 조용히 말한다, 멀리 있는 사람에게는 큰 소리로 말한다 등).",
+      "tags": [
+        "공공질서",
+        "도서관",
+        "목소리크기",
+        "배려",
+        "친구"
+      ],
+      "dialogues": [
+        {
+          "order": 1,
+          "speaker": "함서진",
+          "text": "속마음"
+        },
+        {
+          "order": 2,
+          "speaker": "함서진",
+          "text": "속마음"
+        },
+        {
+          "order": 3,
+          "speaker": "함서진",
+          "text": "속마음"
+        },
+        {
+          "order": 4,
+          "speaker": "함서진",
+          "text": "속마음"
+        },
+        {
+          "order": 5,
+          "speaker": "함서진",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "조용히",
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "label": "B",
+          "text": "또박또박 크게",
+          "is_correct": false,
+          "rationale": "도서관에서는 다른 사람에게 피해를 주지 않게 조용히 말해야 해."
+        }
+      ]
+    },
+    {
+      "id": "DNvr43",
+      "code": "Nvr",
+      "title": "다른 사람과 대화할 때 나는 적절한 어조, 말투, 말의 크기를 사용하여 말할 수 있다 (예: 도서관에서는 조용히 말한다, 멀리 있는 사람에게는 큰 소리로 말한다 등).",
+      "detail": "다른 사람과 대화할 때 나는 적절한 어조, 말투, 말의 크기를 사용하여 말할 수 있다 (예: 도서관에서는 조용히 말한다, 멀리 있는 사람에게는 큰 소리로 말한다 등).",
+      "tags": [
+        "목소리크기",
+        "배려",
+        "야외",
+        "이웃",
+        "존중"
+      ],
+      "dialogues": [
+        {
+          "order": 1,
+          "speaker": "함서진",
+          "text": "웃음을 터트림"
+        },
+        {
+          "order": 3,
+          "speaker": "함서진",
+          "text": "웃으며"
+        },
+        {
+          "order": 4,
+          "speaker": "최진혁",
+          "text": "속마음/웃음"
+        },
+        {
+          "order": 5,
+          "speaker": "함서진",
+          "text": "작은 목소리"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "큰 목소리",
+          "is_correct": false,
+          "rationale": "사람들은 남들이 나 몰래 내 이야기를 하는 것을 싫어하거든."
+        },
+        {
+          "label": "B",
+          "text": "작은 목소리",
+          "is_correct": true,
+          "rationale": "아저씨가 진혁이의 말을 듣게 되면 기분 나빠할 거야."
+        }
+      ]
+    },
+    {
+      "id": "DNvr51",
+      "code": "Nvr",
+      "title": "자세, 거리 유지 기술",
+      "detail": "다른 사람과 상호작용할 때 나는 적절한 거리와 방향를 유지할 수 있다. (예: 너무 가까이 붙지 않는다, 상대방을 향한다 등)",
+      "tags": [
+        "교실",
+        "다수",
+        "대화자세",
+        "배려",
+        "적정거리유지",
+        "친구",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 5,
+          "speaker": "황주아",
+          "text": "큰 목소리"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "다른 사람과 이야기를 할 때는 적절한 거리를 유지해야 해."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "너무 가까운 거리에서 이야기를 하면 상대방이 불편해 할 거야."
+        }
+      ]
+    },
+    {
+      "id": "DNvr52",
+      "code": "Nvr",
+      "title": "다른 사람과 상호작용할 때 나는 적절한 거리와 방향를 유지할 수 있다. (예: 너무 가까이 붙지 않는다, 상대방을 향한다 등)",
+      "detail": "다른 사람과 상호작용할 때 나는 적절한 거리와 방향를 유지할 수 있다. (예: 너무 가까이 붙지 않는다, 상대방을 향한다 등)",
+      "tags": [
+        "경청",
+        "교실",
+        "대화자세",
+        "대화태도",
+        "쉬는시간",
+        "친구",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 3,
+          "speaker": "황주아",
+          "text": "속마음"
+        },
+        {
+          "order": 5,
+          "speaker": "황주아",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "대화를 할 때는 내 몸을 상대방을 바라보는 것이 좋아."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "몸의 방향이 바르지 않으면 상대방은 내가 이야기에 집중하지 않는다고 생각할 거야."
+        }
+      ]
+    },
+    {
+      "id": "DNvr53",
+      "code": "Nvr",
+      "title": "다른 사람과 상호작용할 때 나는 적절한 거리와 방향를 유지할 수 있다. (예: 너무 가까이 붙지 않는다, 상대방을 향한다 등)",
+      "detail": "다른 사람과 상호작용할 때 나는 적절한 거리와 방향를 유지할 수 있다. (예: 너무 가까이 붙지 않는다, 상대방을 향한다 등)",
+      "tags": [
+        "교실",
+        "다수",
+        "매너",
+        "목소리크기",
+        "배려",
+        "친구",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 7,
+          "speaker": "권유나",
+          "text": "혼잣말"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "큰 소리로 말하면 교실 안의 다른 학생들이 불편할 수 있어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "대화가 필요할 땐, 상대방에게 다가가서 말해야 해."
+        }
+      ]
+    },
+    {
+      "id": "DNvr54",
+      "code": "Nvr",
+      "title": "상대방의 말에 고개를 끄덕이거나 눈 마주치기와 같이 반응하며 듣기",
+      "detail": "다른 사람과 상호작용할 때 나는 적절한 거리와 방향를 유지할 수 있다. (예: 너무 가까이 붙지 않는다, 상대방을 향한다 등)",
+      "tags": [
+        "1대1",
+        "교무실",
+        "눈맞춤",
+        "대화태도",
+        "선생님",
+        "시선",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 5,
+          "speaker": "황주아",
+          "text": "속마음"
+        },
+        {
+          "order": 6,
+          "speaker": "황주아",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "대화를 할 때는 상대방과 눈을 적절히 마주치는 게 좋아."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "시선이 올바르지 않으면 상대방은 내 이야기에 집중하지 않는다고 생각할 거야."
+        }
+      ]
+    },
+    {
+      "id": "DQue11",
+      "code": "Que",
+      "title": "다양한 단서를 활용하여 생각 파악하기",
+      "detail": "나는 다른 사람의 목소리와 표정으로 그 사람의 기분이나 마음을 파악할 수 있다.",
+      "tags": [
+        "감격",
+        "감동",
+        "감정파악",
+        "깜짝파티",
+        "눈물",
+        "다수",
+        "친구",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 1,
+          "speaker": "황주아",
+          "text": "조심스럽게"
+        },
+        {
+          "order": 4,
+          "speaker": "황주아",
+          "text": "속마음"
+        },
+        {
+          "order": 9,
+          "speaker": "황주아",
+          "text": "놀람, 감격"
+        },
+        {
+          "order": 11,
+          "speaker": "권유나",
+          "text": "당황해서 말을 못 이음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "사람은 감동을 받을 때 눈물이 나오기도 해."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "주아는 친구들의 깜짝 파티에 감동을 받은 거야."
+        }
+      ]
+    },
+    {
+      "id": "DQue12",
+      "code": "Que",
+      "title": "다양한 단서를 활용하여 생각 파악하기",
+      "detail": "나는 다른 사람의 목소리와 표정으로 그 사람의 기분이나 마음을 파악할 수 있다.",
+      "tags": [
+        "1대1",
+        "감정파악",
+        "놀람",
+        "두려움",
+        "창백",
+        "친구집"
+      ],
+      "dialogues": [
+        {
+          "order": 9,
+          "speaker": "최진혁",
+          "text": "창백. 더듬"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "도마뱀을 본 진혁이는 얼굴이 창백해지고, 말을 더듬었어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "진혁이는 준우가 키우는 도마뱀이 무서운 거야."
+        }
+      ]
+    },
+    {
+      "id": "DQue13",
+      "code": "Que",
+      "title": "사진이나 그림을 보고 표정 인식하기, 상황을 살펴보고 이에 따라 유발되는 정서 인식하기",
+      "detail": "나는 다른 사람의 목소리와 표정으로 그 사람의 기분이나 마음을 파악할 수 있다.",
+      "tags": [
+        "1대1",
+        "갈등상황",
+        "감정파악",
+        "교실",
+        "실수",
+        "친구",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 6,
+          "speaker": "유재은",
+          "text": "한숨 섞임"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "말수가 줄고, 목소리에 한숨이 섞여 있는 건 화난 사람한테서 볼 수 있는 모습이야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "재은이는 화가 났지만 서진이를 생각해서 화를 참고 있는 거야."
+        }
+      ]
+    },
+    {
+      "id": "DQue14",
+      "code": "Que",
+      "title": "다양한 단서를 활용하여 생각 파악하기",
+      "detail": "나는 다른 사람의 목소리와 표정으로 그 사람의 기분이나 마음을 파악할 수 있다.",
+      "tags": [
+        "1대1",
+        "감정파악",
+        "교실",
+        "빌려주기",
+        "이해",
+        "친구",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 6,
+          "speaker": "박준우",
+          "text": "미소"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "서진이가 볼펜을 빌리지 않았더라도 볼펜은 잉크가 곧 떨어졌을 거야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "서진이의 잘못이 아니라는 걸 알고 있기 때문에 준우는 별로 신경쓰지 않을 거야."
+        }
+      ]
+    },
+    {
+      "id": "DQue21",
+      "code": "Que",
+      "title": "행동을 보고 감정 파악하기",
+      "detail": "나는 다른 사람의 행동을 보고 그 사람의 기분이나 마음을 파악할 수 있다. (예: 물건을 세게 치거나 던지면 화가 난 것이다, 콧노래를 부르면 기분이 좋은 것이다 등)",
+      "tags": [
+        "1대1",
+        "감정파악",
+        "미안함",
+        "불편",
+        "수업시간",
+        "친구",
+        "학교",
+        "행동단서"
+      ],
+      "dialogues": [
+        {
+          "order": 2,
+          "speaker": "유재은",
+          "text": "속마음"
+        },
+        {
+          "order": 3,
+          "speaker": "유재은",
+          "text": "속마음"
+        },
+        {
+          "order": 4,
+          "speaker": "황주아",
+          "text": "들으라는 식으로 혼잣말"
+        },
+        {
+          "order": 9,
+          "speaker": "유재은",
+          "text": "멋쩍음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "재은이도 물감이 별로 없어서 아껴써야 하는 상황이야"
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "주아한테 못 빌려준다는 말을 하기 미안해서 물감을 숨긴 거야."
+        }
+      ]
+    },
+    {
+      "id": "DQue22",
+      "code": "Que",
+      "title": "행동을 보고 감정 파악하기",
+      "detail": "나는 다른 사람의 행동을 보고 그 사람의 기분이나 마음을 파악할 수 있다. (예: 물건을 세게 치거나 던지면 화가 난 것이다, 콧노래를 부르면 기분이 좋은 것이다 등)",
+      "tags": [
+        "1대1",
+        "감정파악",
+        "집",
+        "행동단서",
+        "형제자매"
+      ],
+      "dialogues": [
+        {
+          "order": 3,
+          "speaker": "황주아",
+          "text": "즐거움"
+        },
+        {
+          "order": 4,
+          "speaker": "황주아",
+          "text": "즐거움"
+        },
+        {
+          "order": 5,
+          "speaker": "황진주",
+          "text": "속마음"
+        },
+        {
+          "order": 6,
+          "speaker": "황진주",
+          "text": "속마음"
+        },
+        {
+          "order": 8,
+          "speaker": "황진주",
+          "text": "놀람"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "머리를 움켜쥐는 것은 하고 있는 일이 잘 풀리지 않을 때 나오는 행동이야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "주아는 퍼즐 맞추기가 생각보다 잘 되지 않아서 머리를 움켜쥐고 있는 거야."
+        }
+      ]
+    },
+    {
+      "id": "DQue23",
+      "code": "Que",
+      "title": "행동을 보고 감정 파악하기",
+      "detail": "나는 다른 사람의 행동을 보고 그 사람의 기분이나 마음을 파악할 수 있다. (예: 물건을 세게 치거나 던지면 화가 난 것이다, 콧노래를 부르면 기분이 좋은 것이다 등)",
+      "tags": [
+        "감정파악",
+        "기쁨",
+        "야외",
+        "친구",
+        "콧노래",
+        "행동단서"
+      ],
+      "dialogues": [
+        {
+          "order": 11,
+          "speaker": "황주아",
+          "text": "콧노래"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "콧노래는 기쁠 때 자연스럽게 나오는 행위야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "주아는 브로마이드 구매에 성공해서 기쁜 걸거야."
+        }
+      ]
+    },
+    {
+      "id": "DQue24",
+      "code": "Que",
+      "title": "행동을 보고 감정 파악하기",
+      "detail": "나는 다른 사람의 행동을 보고 그 사람의 기분이나 마음을 파악할 수 있다. (예: 물건을 세게 치거나 던지면 화가 난 것이다, 콧노래를 부르면 기분이 좋은 것이다 등)",
+      "tags": [
+        "1대1",
+        "감정파악",
+        "교실",
+        "속상함",
+        "실망",
+        "친구",
+        "학교",
+        "한숨",
+        "행동단서"
+      ],
+      "dialogues": [
+        {
+          "order": 2,
+          "speaker": "유재은",
+          "text": "속마음"
+        },
+        {
+          "order": 3,
+          "speaker": "유재은",
+          "text": "속마음"
+        },
+        {
+          "order": 4,
+          "speaker": "최진혁",
+          "text": "어두운 한숨"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "진혁이는 채점을 한 다음에 한숨을 쉬고 있어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "아마 채점 결과가 좋지 않았을 거야."
+        }
+      ]
+    },
+    {
+      "id": "DQue31",
+      "code": "Que",
+      "title": "상대방의 반응 살펴보기",
+      "detail": "나는 다른 사람의 반응을 보고 내가 실수했는지 알아차릴 수 있다. (예: 내가 농담을 했는데 다른 사람이 반응이 없으면 재미없는 농담을 한 것이다)",
+      "tags": [
+        "1대1",
+        "갈등상황",
+        "눈치",
+        "말실수",
+        "반응읽기",
+        "사과",
+        "실수인식",
+        "집",
+        "형제자매"
+      ],
+      "dialogues": [
+        {
+          "order": 5,
+          "speaker": "황진주",
+          "text": "속마음"
+        },
+        {
+          "order": 6,
+          "speaker": "황진주",
+          "text": "속마음"
+        },
+        {
+          "order": 8,
+          "speaker": "황주아",
+          "text": "분노"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "주아가 화가 난 건 자신이 좋아하는 아이돌이 무시당했기 때문이고."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "진주가 말실수를 해서 주아가 화가 났으니까, 진주는 사과를 하는 것이 적절해."
+        }
+      ]
+    },
+    {
+      "id": "DQue32",
+      "code": "Que",
+      "title": "상대방의 반응 살펴보기",
+      "detail": "나는 다른 사람의 반응을 보고 내가 실수했는지 알아차릴 수 있다. (예: 내가 농담을 했는데 다른 사람이 반응이 없으면 재미없는 농담을 한 것이다)",
+      "tags": [
+        "1대1",
+        "공원",
+        "눈치",
+        "반응읽기",
+        "사과",
+        "실수인식",
+        "야외",
+        "예의",
+        "친구",
+        "환경"
+      ],
+      "dialogues": [
+        {
+          "order": 11,
+          "speaker": "유재은",
+          "text": "당혹"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "재은이는 서진이가 예의 없는 행동을 해서 당황했어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "내 행동이 상대방을 당황하게 했으면 사과를 해야 해."
+        }
+      ]
+    },
+    {
+      "id": "DQue33",
+      "code": "Que",
+      "title": "상대방의 반응 살펴보기",
+      "detail": "나는 다른 사람의 반응을 보고 내가 실수했는지 알아차릴 수 있다. (예: 내가 농담을 했는데 다른 사람이 반응이 없으면 재미없는 농담을 한 것이다)",
+      "tags": [
+        "눈치",
+        "떼쓰기",
+        "마트",
+        "반응읽기",
+        "배려",
+        "부모자녀",
+        "욕구조절"
+      ],
+      "dialogues": [
+        {
+          "order": 4,
+          "speaker": "은수 엄마",
+          "text": "당혹"
+        },
+        {
+          "order": 5,
+          "speaker": "강은수",
+          "text": "떼쓰기"
+        },
+        {
+          "order": 6,
+          "speaker": "은수 엄마",
+          "text": "난색"
+        },
+        {
+          "order": 8,
+          "speaker": "은수 엄마",
+          "text": "당황"
+        },
+        {
+          "order": 9,
+          "speaker": "은수 엄마",
+          "text": "조심"
+        },
+        {
+          "order": 10,
+          "speaker": "은수 엄마",
+          "text": "화남"
+        },
+        {
+          "order": 11,
+          "speaker": "은수 엄마",
+          "text": "분노"
+        },
+        {
+          "order": 12,
+          "speaker": "강은수",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "갈비찜을 해달라고 조르면 엄마는 더 힘드실 수 있어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "때로는 내가 하고 싶은 것을 참고 상대방을 배려해주는 것이 더 나을 수 있어."
+        }
+      ]
+    },
+    {
+      "id": "DQue34",
+      "code": "Que",
+      "title": "상대방의 반응 살펴보기",
+      "detail": "나는 다른 사람의 반응을 보고 내가 실수했는지 알아차릴 수 있다. (예: 내가 농담을 했는데 다른 사람이 반응이 없으면 재미없는 농담을 한 것이다)",
+      "tags": [
+        "교실",
+        "눈치",
+        "반응읽기",
+        "선생님",
+        "수업시간",
+        "욕구조절",
+        "적절한행동",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 2,
+          "speaker": "함서진",
+          "text": "조름"
+        },
+        {
+          "order": 3,
+          "speaker": "담임 선생님",
+          "text": "단호"
+        },
+        {
+          "order": 4,
+          "speaker": "담임 선생님",
+          "text": "단호"
+        },
+        {
+          "order": 5,
+          "speaker": "함서진",
+          "text": "조름"
+        },
+        {
+          "order": 6,
+          "speaker": "함서진",
+          "text": "조름"
+        },
+        {
+          "order": 7,
+          "speaker": "담임 선생님",
+          "text": "단호"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "그런데도 계속 재미있는 얘기를 요구하는 건 선생님을 더 무시하는 행동이야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "무리한 요구를 계속하는 건 상대방을 배려하지 않는 행동이야."
+        }
+      ]
+    },
+    {
+      "id": "DRbh11",
+      "code": "Rbh",
+      "title": "상황에 맞게 욕구 조절하기",
+      "detail": "나는 몸(손, 머리 등)이나 물건을 흔들거나 두드리는 습관이 있다.",
+      "tags": [
+        "감정조절",
+        "공공장소",
+        "다수",
+        "배려",
+        "불안",
+        "습관",
+        "자기조절",
+        "지하철"
+      ],
+      "dialogues": [
+        {
+          "order": 3,
+          "speaker": "강은수",
+          "text": "속마음"
+        },
+        {
+          "order": 4,
+          "speaker": "강은수",
+          "text": "속마음"
+        },
+        {
+          "order": 5,
+          "speaker": "강은수",
+          "text": "속마음"
+        },
+        {
+          "order": 6,
+          "speaker": "강은수",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "좁은 공간에서 몸을 흔들면 다른 사람에게 피해를 줄 거야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "사람들에게 피해를 주지 않는 다른 동작을 찾아서 불안을 해결해보자."
+        }
+      ]
+    },
+    {
+      "id": "DRbh12",
+      "code": "Rbh",
+      "title": "상황에 맞게 욕구 조절하기",
+      "detail": "나는 몸(손, 머리 등)이나 물건을 흔들거나 두드리는 습관이 있다.",
+      "tags": [
+        "감정조절",
+        "교실",
+        "긴장",
+        "다수",
+        "방해",
+        "배려",
+        "선생님",
+        "습관",
+        "시험",
+        "자기조절",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 3,
+          "speaker": "강은수",
+          "text": "속마음"
+        },
+        {
+          "order": 4,
+          "speaker": "강은수",
+          "text": "속마음"
+        },
+        {
+          "order": 5,
+          "speaker": "담임 선생님",
+          "text": "작은 목소리"
+        },
+        {
+          "order": 6,
+          "speaker": "강은수",
+          "text": "작은 목소리"
+        },
+        {
+          "order": 7,
+          "speaker": "담임 선생님",
+          "text": "작은 목소리"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "볼펜을 계속 딸깍거리면 같은 반 친구들에게 피해를 줄 거야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "다른 애들에게 방해가 안 되는 동작을 찾아서 불안을 해결해보자."
+        }
+      ]
+    },
+    {
+      "id": "DRbh13",
+      "code": "Rbh",
+      "title": "상황에 맞게 욕구 조절하기",
+      "detail": "나는 몸(손, 머리 등)이나 물건을 흔들거나 두드리는 습관이 있다.",
+      "tags": [
+        "감정조절",
+        "공공장소",
+        "긴장",
+        "다수",
+        "모르는사람",
+        "배려",
+        "습관",
+        "영화관",
+        "자기조절"
+      ],
+      "dialogues": [
+        {
+          "order": 1,
+          "speaker": "리오",
+          "text": "목소리만"
+        },
+        {
+          "order": 2,
+          "speaker": "강은수",
+          "text": "속마음"
+        },
+        {
+          "order": 3,
+          "speaker": "강은수",
+          "text": "속마음"
+        },
+        {
+          "order": 4,
+          "speaker": "학생A",
+          "text": "작은 목소리"
+        },
+        {
+          "order": 5,
+          "speaker": "학생A",
+          "text": "작은 목소리"
+        },
+        {
+          "order": 6,
+          "speaker": "강은수",
+          "text": "작은 목소리"
+        },
+        {
+          "order": 7,
+          "speaker": "강은수",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "앞좌석을 꽉 붙잡으면 앞사람한테 피해를 줄 거야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "사람들에게 피해를 주지 않는 다른 동작을 찾아서 불안을 해결해보자."
+        }
+      ]
+    },
+    {
+      "id": "DRbh14",
+      "code": "Rbh",
+      "title": "상황에 맞게 욕구 조절하기",
+      "detail": "나는 몸(손, 머리 등)이나 물건을 흔들거나 두드리는 습관이 있다.",
+      "tags": [
+        "감정조절",
+        "놀람",
+        "다수",
+        "불안",
+        "수업시간",
+        "습관",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 3,
+          "speaker": "강은수",
+          "text": "뒷말 묻힘"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "수업 중에 자리에서 일어나면 친구들에게 방해가 될 수 있어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "친구들에게 피해를 주지 않는 작은 동작을 찾아서 불안을 해결해보자."
+        }
+      ]
+    },
+    {
+      "id": "DRbh21",
+      "code": "Rbh",
+      "title": "다양한 감각 자극에 반응하기",
+      "detail": "나는 소리나 빛, 촉감 등에 예민하다 (혹은 둔감하다).",
+      "tags": [
+        "감각과민성",
+        "감정조절",
+        "공공장소",
+        "대응",
+        "소리",
+        "자기조절",
+        "카페"
+      ],
+      "dialogues": [
+        {
+          "order": 1,
+          "speaker": "유재은",
+          "text": "말 생략"
+        },
+        {
+          "order": 2,
+          "speaker": "유재은",
+          "text": "걱정"
+        },
+        {
+          "order": 3,
+          "speaker": "강은수",
+          "text": "짜증"
+        },
+        {
+          "order": 4,
+          "speaker": "유재은",
+          "text": "당황"
+        },
+        {
+          "order": 5,
+          "speaker": "유재은",
+          "text": "당황"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "그럴 때 다른 사람에게 무조건 조용히 해달라고 요구하는 것은 적절하지 않아."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "소리 때문에 너무 힘들면 조용한 곳으로 자리로 옮기자."
+        }
+      ]
+    },
+    {
+      "id": "DRbh22",
+      "code": "Rbh",
+      "title": "다양한 감각 자극에 반응하기",
+      "detail": "나는 소리나 빛, 촉감 등에 예민하다 (혹은 둔감하다).",
+      "tags": [
+        "감각과민성",
+        "감정조절",
+        "교실",
+        "긴급상황",
+        "대피훈련",
+        "문제해결",
+        "소리",
+        "위기대처",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 4,
+          "speaker": "음악 선생님",
+          "text": "말 생략"
+        },
+        {
+          "order": 7,
+          "speaker": "강은수",
+          "text": "속마음"
+        },
+        {
+          "order": 8,
+          "speaker": "강은수",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "사이렌은 시끄러운 소리를 내서 불이 났다는 걸 알리는 도구야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "사이렌 소리가 나면 시끄러워도 교실 밖으로 대피해야 해."
+        }
+      ]
+    },
+    {
+      "id": "DRbh23",
+      "code": "Rbh",
+      "title": "다양한 감각 자극에 반응하기",
+      "detail": "나는 소리나 빛, 촉감 등에 예민하다 (혹은 둔감하다).",
+      "tags": [
+        "감각과민성",
+        "감정조절",
+        "부모자녀",
+        "빛",
+        "야외"
+      ],
+      "dialogues": [
+        {
+          "order": 5,
+          "speaker": "강은수",
+          "text": "눈 찡그리고 괴로워함"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "집까지 걸어가면 너무 오래 걸릴 거야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "정류장 불빛이 너무 강하면, 버스가 도착할 때까지 불빛에서 떨어져 있자."
+        }
+      ]
+    },
+    {
+      "id": "DRbh31",
+      "code": "Rbh",
+      "title": "위험을 알리는 신호 구분하기",
+      "detail": "나는 운동신경이 떨어진다.",
+      "tags": [
+        "반응속도",
+        "신체보호",
+        "안전",
+        "야외",
+        "운동신경",
+        "위험대처",
+        "친구",
+        "피하기"
+      ],
+      "dialogues": [
+        {
+          "order": 6,
+          "speaker": "함서진",
+          "text": "목소리만"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "“피해!”, “조심해!” 라는 말을 들으면 가정 먼저 몸부터 지켜야 해."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "누가 불렀는지 확인을 하면, 위험한 일을 피하지 못할 수도 있어."
+        }
+      ]
+    },
+    {
+      "id": "DRbh33",
+      "code": "Rbh",
+      "title": "나는 운동신경이 떨어진다.",
+      "detail": "나는 운동신경이 떨어진다.",
+      "tags": [
+        "노력",
+        "수업시간",
+        "수행평가",
+        "연습",
+        "운동신경",
+        "체육시간",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 2,
+          "speaker": "황주아",
+          "text": "걱정"
+        },
+        {
+          "order": 5,
+          "speaker": "황주아",
+          "text": "혼잣말"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "운동은 조금씩 노력하면 어느 순간에 좋아지는 게 느껴질 수 있어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "매일 조금씩 연습하면 언젠가는 잘 할 수 있게 될 거야."
+        }
+      ]
+    },
+    {
+      "id": "DRbh41",
+      "code": "Rbh",
+      "title": "식사 예절 지키기",
+      "detail": "나는 편식을 하는 편이다.",
+      "tags": [
+        "1대1",
+        "식당",
+        "식사매너",
+        "친구",
+        "편식"
+      ],
+      "dialogues": [
+        {
+          "order": 3,
+          "speaker": "황주아",
+          "text": "속마음"
+        },
+        {
+          "order": 4,
+          "speaker": "황주아",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "이미 입에 들어갔으니, 이번에는 참고 먹어보자."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "양파가 정말 싫어서 괴롭다면, 다음부터는 미리 양파를 빼고 먹어도 돼."
+        }
+      ]
+    },
+    {
+      "id": "DRbh42",
+      "code": "Rbh",
+      "title": "가정생활 상황에서 적절하게 반응하기",
+      "detail": "나는 편식을 하는 편이다.",
+      "tags": [
+        "배려",
+        "부모자녀",
+        "식사예절",
+        "집"
+      ],
+      "dialogues": [
+        {
+          "order": 6,
+          "speaker": "강은수",
+          "text": "난색"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "엄마가 정성스럽게 만든 반찬을 치우는 건 예의없는 행동이야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "가지는 몸에 좋은 식품이니까, 건강을 위해서 먹는 게 좋아."
+        }
+      ]
+    },
+    {
+      "id": "DRbh43",
+      "code": "Rbh",
+      "title": "가정생활 상황에서 적절하게 반응하기",
+      "detail": "나는 편식을 하는 편이다.",
+      "tags": [
+        "배려",
+        "부모자녀",
+        "식사예절",
+        "집"
+      ],
+      "dialogues": [
+        {
+          "order": 6,
+          "speaker": "강은수",
+          "text": "난색"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "입 안에 있는 음식물을 뱉은 건 예의 없는 행동이야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "콩은 몸에 좋은 식품이니까, 건강을 위해서 먹는 게 좋아."
+        }
+      ]
+    },
+    {
+      "id": "DRbh53",
+      "code": "Rbh",
+      "title": "자기 감정 조절하기",
+      "detail": "시간표나 계획이 바뀌면 나는 생각과 마음이 많이 불편하다.",
+      "tags": [
+        "감정조절",
+        "메뉴변경",
+        "예상치못한상황",
+        "유연성",
+        "점심시간",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 2,
+          "speaker": "함서진",
+          "text": "놀람"
+        },
+        {
+          "order": 6,
+          "speaker": "함서진",
+          "text": "경악"
+        },
+        {
+          "order": 8,
+          "speaker": "함서진",
+          "text": "긴장"
+        },
+        {
+          "order": 10,
+          "speaker": "함서진",
+          "text": "통탄"
+        }
+      ],
+      "question": "속마음",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "하지만 항상 모든 일이 계획대로 되는 건 아니야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "예상치 못한 상황도 넓은 마음으로 받아들이는 자세가 필요해."
+        }
+      ]
+    },
+    {
+      "id": "DRin11",
+      "code": "Rin",
+      "title": "상황에 맞게 욕구 조절하기",
+      "detail": "나는 하루 대부분을 내가 좋아하는 것들에 대해 생각한다. (예: 자동차, 동물, 캐릭터 등)",
+      "tags": [
+        "수업시간",
+        "우선순위",
+        "자기조절",
+        "제한적관심",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 1,
+          "speaker": "강은수",
+          "text": "다급하게"
+        },
+        {
+          "order": 8,
+          "speaker": "담임 선생님",
+          "text": "뒷말 생략"
+        },
+        {
+          "order": 9,
+          "speaker": "강은수",
+          "text": "속마음"
+        },
+        {
+          "order": 10,
+          "speaker": "강은수",
+          "text": "속마음"
+        },
+        {
+          "order": 11,
+          "speaker": "강은수",
+          "text": "속마음"
+        },
+        {
+          "order": 12,
+          "speaker": "강은수",
+          "text": "속마음"
+        }
+      ],
+      "question": "속마음",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "수업 시간에 중요한 건 수업을 듣는 거야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "은수는 수업에 집중하고 쉬는 시간에 메시지를 보내야 해."
+        }
+      ]
+    },
+    {
+      "id": "DRin12",
+      "code": "Rin",
+      "title": "상황에 맞게 욕구 조절하기",
+      "detail": "나는 하루 대부분을 내가 좋아하는 것들에 대해 생각한다. (예: 자동차, 동물, 캐릭터 등)",
+      "tags": [
+        "수업시간",
+        "우선순위",
+        "자기조절",
+        "제한적관심",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 1,
+          "speaker": "담임 선생님",
+          "text": "수업톤"
+        },
+        {
+          "order": 2,
+          "speaker": "황주아",
+          "text": "속마음"
+        },
+        {
+          "order": 3,
+          "speaker": "황주아",
+          "text": "속마음"
+        },
+        {
+          "order": 4,
+          "speaker": "황주아",
+          "text": "속마음"
+        },
+        {
+          "order": 5,
+          "speaker": "황주아",
+          "text": "속마음"
+        }
+      ],
+      "question": "속마음",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "수업 시간에 중요한 건 수업을 듣는 거야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "주아는 수업에 집중하고, 쉬는 시간에 신곡 정보를 확인해야 해."
+        }
+      ]
+    },
+    {
+      "id": "DRin13",
+      "code": "Rin",
+      "title": "상황에 맞게 욕구 조절하기",
+      "detail": "나는 하루 대부분을 내가 좋아하는 것들에 대해 생각한다. (예: 자동차, 동물, 캐릭터 등)",
+      "tags": [
+        "수업시간",
+        "우선순위",
+        "자기조절",
+        "제한적관심",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 1,
+          "speaker": "담임 선생님",
+          "text": "수업톤"
+        },
+        {
+          "order": 2,
+          "speaker": "담임 선생님",
+          "text": "수업톤"
+        },
+        {
+          "order": 4,
+          "speaker": "함서진",
+          "text": "속마음"
+        },
+        {
+          "order": 5,
+          "speaker": "함서진",
+          "text": "속마음"
+        },
+        {
+          "order": 6,
+          "speaker": "함서진",
+          "text": "속마음"
+        },
+        {
+          "order": 7,
+          "speaker": "함서진",
+          "text": "속마음"
+        },
+        {
+          "order": 13,
+          "speaker": "함서진",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "수업 시간에 중요한 건 수업을 듣는 거야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "서진이는 수업에 집중하고, 치킨 생각은 쉬는 시간에 해야 해."
+        }
+      ]
+    },
+    {
+      "id": "DRin14",
+      "code": "Rin",
+      "title": "상대방이 이해할 수 있도록 정확하게 전달하기",
+      "detail": "나는 하루 대부분을 내가 좋아하는 것들에 대해 생각한다. (예: 자동차, 동물, 캐릭터 등)",
+      "tags": [
+        "1대1",
+        "대화",
+        "부모자녀",
+        "유머",
+        "자기중심성(egocentrism)",
+        "집"
+      ],
+      "dialogues": [
+        {
+          "order": 3,
+          "speaker": "박준우",
+          "text": "알려주는 말투"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "강은수",
+          "is_correct": true,
+          "rationale": "나 혼자만 알고 있는 규칙은 다른 사람을 혼란스럽게 할 거야."
+        },
+        {
+          "label": "B",
+          "text": "강은수",
+          "is_correct": false,
+          "rationale": "나만의 규칙이 있더라도, 대화할 때는 다른 사람이 이해할 수 있도록 말해야 해."
+        }
+      ]
+    },
+    {
+      "id": "DRin31",
+      "code": "Rin",
+      "title": "상황에 맞게 욕구 조절하기",
+      "detail": "한 가지만 지나치게 좋아한다고 주변 사람들이 나에게 뭐라고 한다. (예: 너무 집착한다, 다른 것도 신경써라 등)",
+      "tags": [
+        "수업시간",
+        "우선순위",
+        "자기조절",
+        "제한적관심",
+        "지루함",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 6,
+          "speaker": "담임 선생님",
+          "text": "뒷말 생략"
+        }
+      ],
+      "question": "속마음",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "항상 내가 좋아하는 것만 할 수는 없어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "국어 시간은 국어 수업을 듣는 것이 규칙이니까, 수학 문제집을 푸는 것은 좋지 않아."
+        }
+      ]
+    },
+    {
+      "id": "DRin32",
+      "code": "Rin",
+      "title": "사회적 상호 작용 상황에 알맞은 말과 행동 익히기",
+      "detail": "한 가지만 지나치게 좋아한다고 주변 사람들이 나에게 뭐라고 한다. (예: 너무 집착한다, 다른 것도 신경써라 등)",
+      "tags": [
+        "배려",
+        "자기조절",
+        "제한적관심",
+        "청소시간",
+        "친구",
+        "학교",
+        "함께",
+        "협력"
+      ],
+      "dialogues": [
+        {
+          "order": 6,
+          "speaker": "권유나",
+          "text": "속마음/ 의욕"
+        },
+        {
+          "order": 7,
+          "speaker": "권유나",
+          "text": "속마음/의욕"
+        },
+        {
+          "order": 8,
+          "speaker": "권유나",
+          "text": "속마음"
+        },
+        {
+          "order": 9,
+          "speaker": "권유나",
+          "text": "속마음/ 아쉬움"
+        },
+        {
+          "order": 10,
+          "speaker": "권유나",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "내가 좋아하는 일이라고 혼자서 독차지하는 건 좋지 않아."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "다 같이 힘을 모아야 일도 더 빨리 끝나고, 친구들도 보람을 느낄 수 있어."
+        }
+      ]
+    },
+    {
+      "id": "DRin34",
+      "code": "Rin",
+      "title": "대화 차례를 지키며 대화",
+      "detail": "한 가지만 지나치게 좋아한다고 주변 사람들이 나에게 뭐라고 한다. (예: 너무 집착한다, 다른 것도 신경써라 등)",
+      "tags": [
+        "1대1",
+        "관심사공유",
+        "대화",
+        "배려",
+        "부모자녀",
+        "제한적관심",
+        "집",
+        "취향"
+      ],
+      "dialogues": [
+        {
+          "order": 1,
+          "speaker": "다큐멘터리",
+          "text": "마무리톤"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "내가 좋아하는 이야기도 남들은 지루해 할 수 있어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "이야기를 할 때는 다른 사람의 취향도 신경 써야 해."
+        }
+      ]
+    },
+    {
+      "id": "DVer11",
+      "code": "Ver",
+      "title": "상대방의 표정과 동작에 주의를 기울이며 듣기, 상대방의 말을 끝까지 집중해서 듣기",
+      "detail": "나는 다른 사람과 대화를 길게 주고 받는 것이 어렵다.",
+      "tags": [
+        "1대1",
+        "교실",
+        "대화",
+        "대화예절",
+        "대화주고받기",
+        "친구",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 4,
+          "speaker": "박준우",
+          "text": "말 잘림"
+        },
+        {
+          "order": 6,
+          "speaker": "박준우",
+          "text": "조금 당황"
+        },
+        {
+          "order": 7,
+          "speaker": "박준우",
+          "text": "말 잘림"
+        },
+        {
+          "order": 8,
+          "speaker": "강은수",
+          "text": "신남"
+        },
+        {
+          "order": 9,
+          "speaker": "박준우",
+          "text": "굳은 표정"
+        },
+        {
+          "order": 11,
+          "speaker": "박준우",
+          "text": "삐진 목소리"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "대화를 할 때는 상대방의 이야기에 집중해야 해."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "상대방의 말이 끝나기 전에 말하는 건 실례가 되는 행동이야."
+        }
+      ]
+    },
+    {
+      "id": "DVer14",
+      "code": "Ver",
+      "title": "다른 사람의 감정과 상황을 고려하여 행동하기",
+      "detail": "나는 다른 사람과 대화를 길게 주고 받는 것이 어렵다.",
+      "tags": [
+        "1대1",
+        "도움주기",
+        "배려",
+        "존중",
+        "집",
+        "형제자매"
+      ],
+      "dialogues": [
+        {
+          "order": 2,
+          "speaker": "황진주",
+          "text": "속마음"
+        },
+        {
+          "order": 3,
+          "speaker": "황진주",
+          "text": "속마음"
+        },
+        {
+          "order": 4,
+          "speaker": "황진주",
+          "text": "속마음"
+        },
+        {
+          "order": 5,
+          "speaker": "황진주",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "사람들은 무시를 받으면 기분이 나빠져."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "대화를 할 때는 상대방의 기분을 신경써야 해."
+        }
+      ]
+    },
+    {
+      "id": "DVer21",
+      "code": "Ver",
+      "title": "나는 나의 생각을 말로 전달하는 것이 어렵다.",
+      "detail": "나는 나의 생각을 말로 전달하는 것이 어렵다.",
+      "tags": [
+        "자기중심성(egocentrism)",
+        "전달하기",
+        "집",
+        "형제자매"
+      ],
+      "dialogues": [
+        {
+          "order": 1,
+          "speaker": "최진혁",
+          "text": "신경쓰임"
+        },
+        {
+          "order": 7,
+          "speaker": "함서진",
+          "text": "놀람"
+        },
+        {
+          "order": 8,
+          "speaker": "황주아",
+          "text": "피식"
+        },
+        {
+          "order": 9,
+          "speaker": "함서진",
+          "text": "부끄러움"
+        },
+        {
+          "order": 11,
+          "speaker": "황주아",
+          "text": "속마음"
+        },
+        {
+          "order": 12,
+          "speaker": "황주아",
+          "text": "속마음"
+        },
+        {
+          "order": 14,
+          "speaker": "황주아",
+          "text": "웃음보 터짐"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "주아가 웃느라고 제대로 말을 못 해줘서, 진주는 함께 웃을 수 없을 거야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "상대방은 내 생각을 읽을 수 없으니까, 사실을 정확하게 전달해 줘야 해."
+        }
+      ]
+    },
+    {
+      "id": "DVer22",
+      "code": "Ver",
+      "title": "지역사회 상황에서 적절하게 표현하기",
+      "detail": "나는 나의 생각을 말로 전달하는 것이 어렵다.",
+      "tags": [
+        "1대1",
+        "교환환불",
+        "모르는사람",
+        "문제해결",
+        "쇼핑시설",
+        "의사표현",
+        "자기주장"
+      ],
+      "dialogues": [
+        {
+          "order": 9,
+          "speaker": "최진혁",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "알바생이 실수를 해서 파란색 바지를 가져온 거야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "알바생이 잘못된 물건을 가져오면 당당히 바꿔달라고 해도 돼."
+        }
+      ]
+    },
+    {
+      "id": "DVer31",
+      "code": "Ver",
+      "title": "상대방이 한 말에 관심을 보이며 듣기",
+      "detail": "나는 다른 사람들의 대화에 적절히 끼어드는 것이 어렵다.",
+      "tags": [
+        "감정파악",
+        "경청",
+        "교실",
+        "다수",
+        "대화끼어들기",
+        "대화차례",
+        "친구",
+        "학교",
+        "행동단서"
+      ],
+      "dialogues": [
+        {
+          "order": 6,
+          "speaker": "함서진",
+          "text": "말 자름"
+        },
+        {
+          "order": 8,
+          "speaker": "함서진",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "다른 사람의 말이 끝나기 전에 갑자기 끼어드는 것 옳지 않은 행동이야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "준우의 말이 끝나기 전에 서진이가 끼어들어서, 준우는 기분이 나빠진 거야."
+        }
+      ]
+    },
+    {
+      "id": "DVer32",
+      "code": "Ver",
+      "title": "상대방이 관심 있는 주제로 대화를 시작하거나 이어 가기",
+      "detail": "나는 다른 사람들의 대화에 적절히 끼어드는 것이 어렵다.",
+      "tags": [
+        "교실",
+        "다수",
+        "대화끼어들기",
+        "대화주제이해",
+        "대화차례",
+        "상황파악",
+        "친구",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 1,
+          "speaker": "유재은",
+          "text": "살짝 걱정"
+        },
+        {
+          "order": 2,
+          "speaker": "박준우",
+          "text": "궁금"
+        },
+        {
+          "order": 5,
+          "speaker": "권유나",
+          "text": "속마음"
+        },
+        {
+          "order": 6,
+          "speaker": "권유나",
+          "text": "속마음"
+        },
+        {
+          "order": 7,
+          "speaker": "권유나",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "나레이션",
+          "is_correct": true,
+          "rationale": "재은이와 준우는 제주도 날씨에 관한 얘기를 하고 있었어."
+        },
+        {
+          "label": "B",
+          "text": "나레이션",
+          "is_correct": false,
+          "rationale": "유나가 대화에 참여하려면 제주도 날씨에 대한 이야기를 해야 해."
+        }
+      ]
+    },
+    {
+      "id": "DVer33",
+      "code": "Ver",
+      "title": "상대방이 관심 있는 주제로 대화를 시작하거나 이어 가기",
+      "detail": "나는 다른 사람들의 대화에 적절히 끼어드는 것이 어렵다.",
+      "tags": [
+        "관심공유",
+        "교실",
+        "다수",
+        "대화끼어들기",
+        "대화차례",
+        "배려",
+        "친구",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 4,
+          "speaker": "권유나",
+          "text": "고민"
+        },
+        {
+          "order": 5,
+          "speaker": "유재은",
+          "text": "고민"
+        },
+        {
+          "order": 6,
+          "speaker": "박준우",
+          "text": "속마음"
+        },
+        {
+          "order": 7,
+          "speaker": "박준우",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "나레이션",
+          "is_correct": true,
+          "rationale": "영화를 보기 전에 결말을 미리 알게 되는 것을 싫어하는 사람이 많아."
+        },
+        {
+          "label": "B",
+          "text": "나레이션",
+          "is_correct": false,
+          "rationale": "대화에 참여하기 위해선, 대화 중인 사람들이 좋아할 만한 이야기를 해야 해."
+        }
+      ]
+    },
+    {
+      "id": "DVer41",
+      "code": "Ver",
+      "title": "말의 의도나 목적 파악하기",
+      "detail": "내가 말귀나 농담, 유행어 등을 잘 못 알아들어 답답하다는 말을 들을 때가 있다.",
+      "tags": [
+        "교실",
+        "눈치",
+        "다수",
+        "유머",
+        "의도파악",
+        "의미파악",
+        "친구",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 10,
+          "speaker": "황주아",
+          "text": "아쉬움"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "콜라맛은 달콤하고, 레몬맛은 새콤하지?"
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "새콤한 걸 좋아한다는 말은, 레몬맛으로 바꿔달라는 뜻이야."
+        }
+      ]
+    },
+    {
+      "id": "DVer42",
+      "code": "Ver",
+      "title": "표정으로 감정 파악하기",
+      "detail": "내가 말귀나 농담, 유행어 등을 잘 못 알아들어 답답하다는 말을 들을 때가 있다.",
+      "tags": [
+        "1대1",
+        "농담",
+        "스포츠",
+        "운동장",
+        "유머",
+        "장난",
+        "친구"
+      ],
+      "dialogues": [
+        {
+          "order": 6,
+          "speaker": "함서진",
+          "text": "능글맞게 웃으며"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "가르쳐들며",
+          "is_correct": false,
+          "rationale": "두 단어의 소리가 똑같은 걸 알고 농담을 한 거야."
+        },
+        {
+          "label": "B",
+          "text": "정색하며",
+          "is_correct": true,
+          "rationale": "상대방이 말하면서 웃고 있으면, 농담을 하는 것일 수도 있어."
+        }
+      ]
+    },
+    {
+      "id": "DVer44",
+      "code": "Ver",
+      "title": "다양한 단서를 활용하여 생각 파악하기",
+      "detail": "내가 말귀나 농담, 유행어 등을 잘 못 알아들어 답답하다는 말을 들을 때가 있다.",
+      "tags": [
+        "눈치",
+        "메뉴주문",
+        "배려",
+        "식당",
+        "의도파악",
+        "의미파악",
+        "초면"
+      ],
+      "dialogues": [
+        {
+          "order": 9,
+          "speaker": "함서진",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "이 말은 반달루가 매운 음식이기 때문에 걱정되서 물어본 거야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "이해하기 어려울 땐, 다른 사람이 어떤 의도로 말한 건지 생각해보자."
+        }
+      ]
+    },
+    {
+      "id": "DVer51",
+      "code": "Ver",
+      "title": "학교생활 상황에서 적절하게 반응하기",
+      "detail": "나는 빨리 대답하라는 말을 들을 때가 있다.",
+      "tags": [
+        "다수",
+        "대답",
+        "선생님",
+        "수업시간",
+        "수업참여",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 3,
+          "speaker": "함서진",
+          "text": "기대"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "선생님은 반 아이들 모두에게 물어본 거야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "서진이도 반 아이들에 포함되니까 대답을 해도 돼."
+        }
+      ]
+    },
+    {
+      "id": "DVer52",
+      "code": "Ver",
+      "title": "나는 빨리 대답하라는 말을 들을 때가 있다.",
+      "detail": "나는 빨리 대답하라는 말을 들을 때가 있다.",
+      "tags": [
+        "1대1",
+        "대답",
+        "도움주기",
+        "등교길",
+        "야외",
+        "준비물",
+        "친구"
+      ],
+      "dialogues": [
+        {
+          "order": 7,
+          "speaker": "박준우",
+          "text": "혼잣말"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "혼잣말이지만 도움이 필요한 상황이기 때문에 재은이가 도움을 주어도 괜찮아."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "재은이가 미술 시간 준비물을 알려주면, 준우에게 큰 도움이 될 거야."
+        }
+      ]
+    },
+    {
+      "id": "DWdr11",
+      "code": "Wdr",
+      "title": "간단한 동작이나 행동을 나타내는 말을 듣고 행동으로 나타내기",
+      "detail": "나는 혼자 있는 것이 편해서 모임이나 단체 활동에서 빠진 적이 있다",
+      "tags": [
+        "1대1",
+        "사회적회피",
+        "지하철",
+        "친구"
+      ],
+      "dialogues": [
+        {
+          "order": 1,
+          "speaker": "유재은",
+          "text": "혼잣말"
+        },
+        {
+          "order": 2,
+          "speaker": "유재은",
+          "text": "혼잣말"
+        },
+        {
+          "order": 3,
+          "speaker": "권유나",
+          "text": "목소리만"
+        },
+        {
+          "order": 10,
+          "speaker": "유재은",
+          "text": "속마음"
+        },
+        {
+          "order": 11,
+          "speaker": "유재은",
+          "text": "속마음"
+        }
+      ],
+      "question": "속마음",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "친구가 자리를 맡아놨다면 친구의 옆에 앉는 게 좋아."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "친구의 옆자리에 앉으면 친구와 더 친해줄 수 있을 거야."
+        }
+      ]
+    },
+    {
+      "id": "DWdr12",
+      "code": "Wdr",
+      "title": "다른 사람의 감정과 상황을 고려하여 행동하기",
+      "detail": "나는 혼자 있는 것이 편해서 모임이나 단체 활동에서 빠진 적이 있다",
+      "tags": [
+        "공공장소",
+        "다수",
+        "모르는사람",
+        "사회적회피"
+      ],
+      "dialogues": [
+        {
+          "order": 5,
+          "speaker": "권유나",
+          "text": "웃음"
+        },
+        {
+          "order": 15,
+          "speaker": "강은수",
+          "text": "속마음"
+        }
+      ],
+      "question": "속마음",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "친구들과 같은 공간에 함께 있으면 더 친해질 수 있을 거야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "일부러 친구들과 따로 행동한다면, 친구들이 거리감을 느낄 수도 있어."
+        }
+      ]
+    },
+    {
+      "id": "DWdr13",
+      "code": "Wdr",
+      "title": "다른 사람의 감정과 상황을 고려하여 행동하기",
+      "detail": "나는 혼자 있는 것이 편해서 모임이나 단체 활동에서 빠진 적이 있다",
+      "tags": [
+        "교실",
+        "다수",
+        "단체활동",
+        "사회적회피",
+        "친구",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 7,
+          "speaker": "함서진",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "친구들과 함께 시간을 보내면 친구들과 더 친해질 수 있을 거야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "같이 갈 수도 있는데 따로 행동하려고 한다면, 친구들이 거리감을 느낄 수 있어."
+        }
+      ]
+    },
+    {
+      "id": "DWdr14",
+      "code": "Wdr",
+      "title": "다른 사람의 감정과 상황을 고려하여 행동하기",
+      "detail": "나는 혼자 있는 것이 편해서 모임이나 단체 활동에서 빠진 적이 있다",
+      "tags": [
+        "1대1",
+        "날씨",
+        "도움주기",
+        "사회적회피",
+        "야외",
+        "우산",
+        "친구"
+      ],
+      "dialogues": [
+        {
+          "order": 5,
+          "speaker": "박준우",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "곤란한 상황에 있는 친구의 부탁을 거절하면, 친구가 거리감을 느낄 수 있어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "친구끼리 도움을 주고 받으면 더 친해질 수 있어."
+        }
+      ]
+    },
+    {
+      "id": "DWdr21",
+      "code": "Wdr",
+      "title": "자신의 감정을 적절하게 표현하기",
+      "detail": "나는 다른 사람들이 있는 곳에서는 긴장되거나 불안하다.",
+      "tags": [
+        "감정조절",
+        "긴장",
+        "다수",
+        "발표",
+        "불안",
+        "수업시간",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 1,
+          "speaker": "과학 선생님",
+          "text": "중얼거림"
+        },
+        {
+          "order": 3,
+          "speaker": "강은수",
+          "text": "자신없음"
+        },
+        {
+          "order": 4,
+          "speaker": "강은수",
+          "text": "속마음"
+        },
+        {
+          "order": 5,
+          "speaker": "강은수",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "발표를 할 수 있도록 떨리는 마음을 가라앉힐 방법을 생각해야 해."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "힘든 상황이긴 하지만, 용기를 가지고 도전해보자! 할 수 있어!"
+        }
+      ]
+    },
+    {
+      "id": "DWdr22",
+      "code": "Wdr",
+      "title": "지역사회에서 지켜야 할 공공질서 규칙 지키기",
+      "detail": "나는 다른 사람들이 있는 곳에서는 긴장되거나 불안하다.",
+      "tags": [
+        "감정조절",
+        "긴장",
+        "다수",
+        "당황",
+        "메뉴주문",
+        "모르는사람",
+        "불안",
+        "식당",
+        "줄서기"
+      ],
+      "dialogues": [
+        {
+          "order": 8,
+          "speaker": "함서진",
+          "text": "속마음"
+        },
+        {
+          "order": 10,
+          "speaker": "뒷사람A",
+          "text": "목소리만"
+        },
+        {
+          "order": 11,
+          "speaker": "뒷사람B",
+          "text": "목소리만"
+        },
+        {
+          "order": 12,
+          "speaker": "함서진",
+          "text": "속마음"
+        },
+        {
+          "order": 13,
+          "speaker": "함서진",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "제자리에 계속 서 있으면 뒤에서 기다리는 사람들은 답답해하거나 짜증을 낼 수 있어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "이럴 땐 긴장하지 말고 줄을 다시 서서, 메뉴 이름을 외우고 주문하면 돼."
+        }
+      ]
+    },
+    {
+      "id": "DWdr23",
+      "code": "Wdr",
+      "title": "지역사회에서 지켜야 할 공공질서 규칙 지키기",
+      "detail": "나는 다른 사람들이 있는 곳에서는 긴장되거나 불안하다.",
+      "tags": [
+        "감정조절",
+        "긴장",
+        "다수",
+        "당황",
+        "메뉴주문",
+        "모르는사람",
+        "불안",
+        "빵집",
+        "줄서기"
+      ],
+      "dialogues": [
+        {
+          "order": 4,
+          "speaker": "황주아",
+          "text": "속마음"
+        },
+        {
+          "order": 5,
+          "speaker": "황주아",
+          "text": "속마음"
+        },
+        {
+          "order": 8,
+          "speaker": "황주아",
+          "text": "속마음"
+        },
+        {
+          "order": 9,
+          "speaker": "황주아",
+          "text": "속마음/초조"
+        },
+        {
+          "order": 10,
+          "speaker": "황주아",
+          "text": "속마음/초조"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "제자리에 계속 서 있으면 뒤에서 기다리는 사람들은 답답해하거나 짜증을 낼 수 있어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "이럴 땐 줄을 다시 서서, 천천히 카드를 찾으면 돼."
+        }
+      ]
+    },
+    {
+      "id": "DWdr24",
+      "code": "Wdr",
+      "title": "지역사회에서 지켜야 할 공공질서 규칙 지키기",
+      "detail": "나는 다른 사람들이 있는 곳에서는 긴장되거나 불안하다.",
+      "tags": [
+        "감정조절",
+        "긴장",
+        "다수",
+        "모르는사람",
+        "불안",
+        "사회적회피",
+        "서점"
+      ],
+      "dialogues": [
+        {
+          "order": 3,
+          "speaker": "박준우",
+          "text": "설명을 읽는 톤"
+        },
+        {
+          "order": 4,
+          "speaker": "박준우",
+          "text": "설명을 읽는 톤"
+        },
+        {
+          "order": 5,
+          "speaker": "박준우",
+          "text": "설명을 읽는 톤"
+        },
+        {
+          "order": 8,
+          "speaker": "박준우",
+          "text": "속마음"
+        },
+        {
+          "order": 9,
+          "speaker": "박준우",
+          "text": "속마음"
+        },
+        {
+          "order": 10,
+          "speaker": "박준우",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "내가 불편하다고, 내 마음대로 규칙을 바꿀 수는 없어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "추첨 이벤트에 참여하고 싶으면 규칙에 따라서 다른 사람과 같이 기다려야해"
+        }
+      ]
+    },
+    {
+      "id": "DWdr31",
+      "code": "Wdr",
+      "title": "도움 요청하기",
+      "detail": "모르는 것이 있어도 나는  되도록 다른 사람들에게 물어보지 않는다.",
+      "tags": [
+        "걱정",
+        "길찾기",
+        "다수",
+        "도움요청",
+        "모르는사람",
+        "사회적회피",
+        "지하철",
+        "질문"
+      ],
+      "dialogues": [
+        {
+          "order": 1,
+          "speaker": "황주아",
+          "text": "심란"
+        },
+        {
+          "order": 2,
+          "speaker": "황주아",
+          "text": "걱정"
+        },
+        {
+          "order": 3,
+          "speaker": "황주아",
+          "text": "걱정"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "모르는 사람이라도 급할 때에는 간단한 질문을 할 수 있어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "혼자서 힘들게 고민하지 말고 주변에 도움을 정중하게 요청해보자."
+        }
+      ]
+    },
+    {
+      "id": "DWdr32",
+      "code": "Wdr",
+      "title": "도움 요청하기",
+      "detail": "모르는 것이 있어도 나는 되도록 다른 사람들에게 물어보지 않는다.",
+      "tags": [
+        "공공장소",
+        "도움요청",
+        "마트",
+        "모르는사람",
+        "사회적회피",
+        "질문",
+        "초조",
+        "화장실"
+      ],
+      "dialogues": [
+        {
+          "order": 2,
+          "speaker": "유재은",
+          "text": "찡그림"
+        },
+        {
+          "order": 3,
+          "speaker": "유재은",
+          "text": "초조"
+        },
+        {
+          "order": 4,
+          "speaker": "유재은",
+          "text": "초조"
+        },
+        {
+          "order": 5,
+          "speaker": "유재은",
+          "text": "초조"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "혼자서 화장실을 찾다가 못 찾게 되면 곤란한 상황이 올 수 있어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "화장실 위치를 묻는 건 다른 사람들이 자주하는 질문이라서 물어보는 것이 실례가 되지 않아."
+        }
+      ]
+    },
+    {
+      "id": "DWdr33",
+      "code": "Wdr",
+      "title": "도움 요청하기",
+      "detail": "모르는 것이 있어도 나는  되도록 다른 사람들에게 물어보지 않는다.",
+      "tags": [
+        "도움요청",
+        "마트",
+        "모르는사람",
+        "사회적회피",
+        "질문"
+      ],
+      "dialogues": [
+        {
+          "order": 3,
+          "speaker": "최진혁",
+          "text": "의문"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "시금치가 다 팔려서 매장에 없는 경우도 있어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "직원한테 물어보면 시금치가 어디에 있는지 알려줄 거야."
+        }
+      ]
+    },
+    {
+      "id": "DWdr34",
+      "code": "Wdr",
+      "title": "도움 요청하기",
+      "detail": "모르는 것이 있어도 나는  되도록 다른 사람들에게 물어보지 않는다.",
+      "tags": [
+        "도움요청",
+        "사회적회피",
+        "선생님",
+        "수업시간",
+        "질문",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 4,
+          "speaker": "황주아",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "질문을 하는 건 쉽지 않을 거야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "하지만 선생님이 물어봐도 된다고 하셨으니까 용기내어 질문해 보자."
+        }
+      ]
+    },
+    {
+      "id": "DWdr41",
+      "code": "Wdr",
+      "title": "나는 다른 사람들과 같이 해야 하는 활동을 피한다. (예: 모둠활동에 참여하지 않는다)",
+      "detail": "나는 다른 사람들과 같이 해야 하는 활동을 피한다. (예: 모둠활동에 참여하지 않는다)",
+      "tags": [
+        "같은반친구",
+        "다수",
+        "사회적회피",
+        "안친한친구",
+        "팀워크",
+        "학교",
+        "함께",
+        "협동"
+      ],
+      "dialogues": [
+        {
+          "order": 8,
+          "speaker": "최진혁",
+          "text": "귀찮다는 듯/ 혼잣말"
+        },
+        {
+          "order": 9,
+          "speaker": "최진혁",
+          "text": "혼잣말"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "줄다리기는 여러 명이서 함께 하는 경기야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "혼자 연습하는 것보다는 다 같이 연습하는 게 효과적이야."
+        }
+      ]
+    },
+    {
+      "id": "DWdr42",
+      "code": "Wdr",
+      "title": "나는 다른 사람들과 같이 해야 하는 활동을 피한다. (예: 모둠활동에 참여하지 않는다)",
+      "detail": "나는 다른 사람들과 같이 해야 하는 활동을 피한다. (예: 모둠활동에 참여하지 않는다)",
+      "tags": [
+        "다수",
+        "사회적회피",
+        "안친한친구",
+        "청소시간",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 8,
+          "speaker": "강은수",
+          "text": "심란"
+        },
+        {
+          "order": 9,
+          "speaker": "강은수",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "친하지 않은 친구들과 청소하는 게 싫을 수 있어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "하지만 규칙을 지키기 위해선 안 친한 아이들과도 같이 할 수 있어야 해."
+        }
+      ]
+    },
+    {
+      "id": "DWdr44",
+      "code": "Wdr",
+      "title": "나는 다른 사람들과 같이 해야 하는 활동을 피한다. (예: 모둠활동에 참여하지 않는다)",
+      "detail": "나는 다른 사람들과 같이 해야 하는 활동을 피한다. (예: 모둠활동에 참여하지 않는다)",
+      "tags": [
+        "다른반친구",
+        "다수",
+        "사회적회피",
+        "스포츠",
+        "안친한친구",
+        "참여",
+        "체육시간",
+        "팀워크",
+        "협력"
+      ],
+      "dialogues": [
+        {
+          "order": 3,
+          "speaker": "박준우",
+          "text": "속마음"
+        },
+        {
+          "order": 4,
+          "speaker": "박준우",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "축구는 상대팀과 동일한 인원수로 하는 게임이야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "축구가 하길 싫더라도 우리 반에 피해주지 않으려면 참고 참여하는 게 좋아."
+        }
+      ]
+    },
+    {
+      "id": "DWdr51",
+      "code": "Wdr",
+      "title": "나는 어른이 옆에 없으면 불안하다. (예: 엄마, 아빠, 선생님 등)",
+      "detail": "나는 어른이 옆에 없으면 불안하다. (예: 엄마, 아빠, 선생님 등)",
+      "tags": [
+        "수업시간",
+        "자립",
+        "짝활동",
+        "친구",
+        "팀짜기",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 3,
+          "speaker": "강은수",
+          "text": "속마음"
+        },
+        {
+          "order": 4,
+          "speaker": "강은수",
+          "text": "속마음"
+        },
+        {
+          "order": 5,
+          "speaker": "강은수",
+          "text": "속마음/명랑"
+        },
+        {
+          "order": 8,
+          "speaker": "강은수",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "작은 일도 일일이 도와달라고 하면, 선생님도 힘드실 거야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "아주 어렵거나 곤란한 일이 아니라면 혼자 할 수 있어야 해."
+        }
+      ]
+    },
+    {
+      "id": "DWdr52",
+      "code": "Wdr",
+      "title": "나는 어른이 옆에 없으면 불안하다. (예: 엄마, 아빠, 선생님 등)",
+      "detail": "나는 어른이 옆에 없으면 불안하다. (예: 엄마, 아빠, 선생님 등)",
+      "tags": [
+        "버스",
+        "소풍",
+        "자립",
+        "친구",
+        "함께"
+      ],
+      "dialogues": [
+        {
+          "order": 4,
+          "speaker": "강은수",
+          "text": "속마음"
+        },
+        {
+          "order": 5,
+          "speaker": "강은수",
+          "text": "속마음"
+        },
+        {
+          "order": 6,
+          "speaker": "권유나",
+          "text": "신남"
+        },
+        {
+          "order": 8,
+          "speaker": "권유나",
+          "text": "신남"
+        },
+        {
+          "order": 9,
+          "speaker": "권유나",
+          "text": "신남"
+        },
+        {
+          "order": 10,
+          "speaker": "권유나",
+          "text": "신남"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "선생님과 친한 것도 좋지만 친구들과 있는 시간이 더 많을 거야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "친구들과 어울리는 연습을 해보자."
+        }
+      ]
+    },
+    {
+      "id": "DWdr53",
+      "code": "Wdr",
+      "title": "교실 청소 등 학교에서 맡은 역할",
+      "detail": "나는 어른이 옆에 없으면 불안하다. (예: 엄마, 아빠, 선생님 등)",
+      "tags": [
+        "규칙준수",
+        "선생님",
+        "자립",
+        "책임",
+        "청소시간",
+        "학교"
+      ],
+      "dialogues": [
+        {
+          "order": 3,
+          "speaker": "담임 선생님",
+          "text": "속마음"
+        },
+        {
+          "order": 5,
+          "speaker": "강은수",
+          "text": "당당하게"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "담당 구역을 청소하는 건 지켜야하는 규칙이야."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "선생님은 규칙을 지키지 않는 학생을 좋아하지 않으실 거야."
+        }
+      ]
+    },
+    {
+      "id": "DWdr54",
+      "code": "Wdr",
+      "title": "나는 어른이 옆에 없으면 불안하다. (예: 엄마, 아빠, 선생님 등)",
+      "detail": "나는 어른이 옆에 없으면 불안하다. (예: 엄마, 아빠, 선생님 등)",
+      "tags": [
+        "박물관",
+        "부모자녀",
+        "불안",
+        "용기",
+        "자립"
+      ],
+      "dialogues": [
+        {
+          "order": 3,
+          "speaker": "은수 엄마",
+          "text": "피로"
+        },
+        {
+          "order": 4,
+          "speaker": "은수 엄마",
+          "text": "피로"
+        },
+        {
+          "order": 5,
+          "speaker": "은수 엄마",
+          "text": "피로"
+        },
+        {
+          "order": 6,
+          "speaker": "강은수",
+          "text": "속마음"
+        }
+      ],
+      "question": "nan",
+      "options": [
+        {
+          "label": "A",
+          "text": "nan",
+          "is_correct": false,
+          "rationale": "항상 엄마가 곁에 있어줄 수는 없어."
+        },
+        {
+          "label": "B",
+          "text": "nan",
+          "is_correct": true,
+          "rationale": "내가 잘 아는 곳이나 엄마가 주변에 있는 안전한 공간에서는 혼자 이동할 수도 있어야 해."
+        }
+      ]
+    }
+  ]
+}
