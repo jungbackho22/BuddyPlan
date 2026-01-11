@@ -1,20 +1,10 @@
-# app.py (전체 교체본)
-# 기능:
-# - questions.json 중복 문항ID(P11 등) 자동 유일화(렌더링 안정화)
-# - factors.json은 그대로 유지(요인 간 중복 문항 허용)
-# - 1문항씩(이전/다음/제출) 방식
-# - 사용자 정보(이름/나이/성별) 입력 받아 DB(SQLite)에 함께 저장
-# - 시나리오 추천 고도화: 요인-코드 + 태그(키워드) 점수화 + 다양성(태그 중복 최소화)
-#
-# 실행:
-#   streamlit run app.py
+# app.py (전체 교체본: 첫 화면(Home) + ID/나이/성별 입력 + 시작 버튼)
+# 실행: streamlit run app.py
 
 from __future__ import annotations
 
 import json
 import sqlite3
-import uuid
-from dataclasses import asdict
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -47,7 +37,6 @@ def dedupe_questions_by_id(questions: List[dict]) -> List[dict]:
     questions.json에 같은 id(P11)가 중복으로 들어있어도
     화면에서는 1번만 렌더링되도록 유일화합니다.
     - factors.json은 그대로 둬도 됨(요인 간 중복 문항 허용)
-    - 응답은 문항ID 기준으로 1개만 저장됨
     """
     seen = set()
     unique: List[dict] = []
@@ -65,7 +54,6 @@ def dedupe_questions_by_id(questions: List[dict]) -> List[dict]:
 
 QUESTIONS = dedupe_questions_by_id(QUESTIONS_RAW)
 QUESTION_IDS = [q["id"] for q in QUESTIONS]
-
 
 # -----------------------------
 # DB 유틸 (스키마 생성 + 컬럼 자동 추가)
@@ -106,10 +94,8 @@ def init_db() -> None:
     )
     con.commit()
 
-    # assessments 테이블에 사용자 정보 컬럼이 없으면 자동으로 추가
+    # (요청사항) 나이/성별 저장 컬럼 추가
     existing_cols = [r[1] for r in con.execute("PRAGMA table_info(assessments);").fetchall()]
-    if "user_name" not in existing_cols:
-        con.execute("ALTER TABLE assessments ADD COLUMN user_name TEXT;")
     if "user_age" not in existing_cols:
         con.execute("ALTER TABLE assessments ADD COLUMN user_age INTEGER;")
     if "user_gender" not in existing_cols:
@@ -120,16 +106,12 @@ def init_db() -> None:
 
 
 def now_iso() -> str:
-    # Streamlit Cloud에서도 안정적으로 동작하도록 단순 ISO 문자열
-    # (UTC 기준)
     import datetime
-
     return datetime.datetime.utcnow().replace(microsecond=0).isoformat() + "Z"
 
 
 def insert_assessment(
     user_id: str,
-    user_name: str,
     user_age: int,
     user_gender: str,
     responses: Dict[str, int],
@@ -140,7 +122,7 @@ def insert_assessment(
     con = connect_db()
 
     cols = [r[1] for r in con.execute("PRAGMA table_info(assessments);").fetchall()]
-    has_profile = all(c in cols for c in ["user_name", "user_age", "user_gender"])
+    has_profile = all(c in cols for c in ["user_age", "user_gender"])
 
     created_at = now_iso()
 
@@ -148,16 +130,15 @@ def insert_assessment(
         cur = con.execute(
             """
             INSERT INTO assessments
-            (user_id, created_at, user_name, user_age, user_gender,
+            (user_id, created_at, user_age, user_gender,
              responses_json, factor_scores_json, top_factors_json, recommended_scenarios_json)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
             """,
             (
                 user_id,
                 created_at,
-                user_name,
-                user_age,
-                user_gender,
+                int(user_age),
+                str(user_gender),
                 json.dumps(responses, ensure_ascii=False),
                 json.dumps(factor_scores, ensure_ascii=False),
                 json.dumps(top_factors, ensure_ascii=False),
@@ -165,7 +146,6 @@ def insert_assessment(
             ),
         )
     else:
-        # 혹시 스키마가 적용되지 않은 경우에도 동작하게(안전장치)
         cur = con.execute(
             """
             INSERT INTO assessments
@@ -192,7 +172,7 @@ def latest_assessment(user_id: str) -> Optional[Dict[str, Any]]:
     con = connect_db()
     row = con.execute(
         """
-        SELECT id, created_at, user_name, user_age, user_gender,
+        SELECT id, created_at, user_age, user_gender,
                factor_scores_json, top_factors_json, recommended_scenarios_json
         FROM assessments
         WHERE user_id=?
@@ -208,12 +188,11 @@ def latest_assessment(user_id: str) -> Optional[Dict[str, Any]]:
     return {
         "id": row[0],
         "created_at": row[1],
-        "user_name": row[2],
-        "user_age": row[3],
-        "user_gender": row[4],
-        "factor_scores": json.loads(row[5]),
-        "top_factors": json.loads(row[6]),
-        "recommended_ids": json.loads(row[7]),
+        "user_age": row[2],
+        "user_gender": row[3],
+        "factor_scores": json.loads(row[4]),
+        "top_factors": json.loads(row[5]),
+        "recommended_ids": json.loads(row[6]),
     }
 
 
@@ -221,7 +200,7 @@ def list_assessments(user_id: str, limit: int = 30) -> List[Dict[str, Any]]:
     con = connect_db()
     rows = con.execute(
         """
-        SELECT id, created_at, user_name, user_age, user_gender, top_factors_json
+        SELECT id, created_at, user_age, user_gender, top_factors_json
         FROM assessments
         WHERE user_id=?
         ORDER BY id DESC
@@ -237,10 +216,9 @@ def list_assessments(user_id: str, limit: int = 30) -> List[Dict[str, Any]]:
             {
                 "id": r[0],
                 "created_at": r[1],
-                "user_name": r[2],
-                "user_age": r[3],
-                "user_gender": r[4],
-                "top_factors": json.loads(r[5]),
+                "user_age": r[2],
+                "user_gender": r[3],
+                "top_factors": json.loads(r[4]),
             }
         )
     return out
@@ -262,77 +240,55 @@ def insert_attempt(user_id: str, scenario_id: str, chosen_label: str, is_correct
 # -----------------------------
 # 추천 고도화(요인-코드 + 태그 키워드 + 다양성)
 # -----------------------------
-# 요인별로 “강화하고 싶은 태그/키워드” 운영 규칙(필요 시 여기만 수정)
 FACTOR_TO_TAG_KEYWORDS: Dict[str, List[str]] = {
     "사회인지·맥락이해": ["눈치", "의도", "뉘앙스", "농담", "표정", "목소리"],
     "상호작용 기술·비언어": ["눈맞춤", "표정", "말투", "거리", "자세", "반응"],
-    "사회적 동기·회피/불안": ["모임", "친구", "학교", "대화", "참여", "어울림"],
+    "사회적 동기·회피/불안": ["모임", "친구", "학교", "대화", "참여", "어울림", "부탁"],
     "반복·집착/감각·경직": ["변화", "계획", "일정", "예민", "습관", "집착"],
     "자기표현·의사소통 유연성": ["부탁", "설명", "의견", "질문", "대답", "대화"],
     "정서·자기조절": ["불안", "긴장", "감정", "조절", "짜증", "진정"],
 }
 
 
-def score_scenario_for_user(
-    scenario: dict,
-    top_factor_names: List[str],
-) -> int:
-    """
-    시나리오 추천 점수:
-    - 코드 매칭: +50
-    - 태그/텍스트 키워드 매칭: +10씩 (최대 30)
-    """
+def score_scenario_for_user(scenario: dict, top_factor_names: List[str]) -> int:
     s_code = str(scenario.get("code", "")).strip()
     s_tags = scenario.get("tags") or []
     s_title = str(scenario.get("title", "")).strip()
     s_detail = str(scenario.get("detail", "")).strip()
-    s_text_blob = " ".join([s_title, s_detail, " ".join(map(str, s_tags))])
+    blob = " ".join([s_title, s_detail, " ".join(map(str, s_tags))])
 
-    # 대상 코드 집합(상위 1~2개 요인 기준)
     target_codes = set()
     for fn in top_factor_names[:2]:
         for c in FACTOR_TO_CODES.get(fn, []):
             target_codes.add(c)
 
     score = 0
-
-    # 1) 코드 매칭 점수
     if s_code and s_code in target_codes:
         score += 50
 
-    # 2) 태그/텍스트 키워드 매칭 점수
-    kw_hits = 0
+    hits = 0
     for fn in top_factor_names[:2]:
         for kw in FACTOR_TO_TAG_KEYWORDS.get(fn, []):
-            if kw and kw in s_text_blob:
-                kw_hits += 1
-    score += min(kw_hits, 3) * 10  # 최대 30점
-
+            if kw and kw in blob:
+                hits += 1
+    score += min(hits, 3) * 10  # 최대 30점
     return score
 
 
 def pick_with_diversity(scored: List[Tuple[int, dict]], k: int = 3) -> List[str]:
-    """
-    점수 높은 순으로 뽑되,
-    - 이미 선택된 시나리오들과 "첫 태그"가 같으면 우선순위를 낮추는 방식으로 다양성 확보
-    """
-    picked: List[dict] = []
     picked_ids: List[str] = []
     used_primary_tags = set()
 
-    # 1차: 첫 태그 다양성 우선
     for s_score, s in scored:
         primary = (s.get("tags") or [""])[0]
         if primary and primary in used_primary_tags:
             continue
-        picked.append(s)
         picked_ids.append(s["id"])
         if primary:
             used_primary_tags.add(primary)
         if len(picked_ids) >= k:
             return picked_ids
 
-    # 2차: 점수 순으로 남은 것 채우기
     for s_score, s in scored:
         if s["id"] in picked_ids:
             continue
@@ -344,12 +300,8 @@ def pick_with_diversity(scored: List[Tuple[int, dict]], k: int = 3) -> List[str]
 
 
 def recommend_scenarios_advanced(top_factor_names: List[str], k: int = 3) -> List[str]:
-    scored: List[Tuple[int, dict]] = []
-    for s in SCENARIO_LIST:
-        scored.append((score_scenario_for_user(s, top_factor_names), s))
+    scored: List[Tuple[int, dict]] = [(score_scenario_for_user(s, top_factor_names), s) for s in SCENARIO_LIST]
     scored.sort(key=lambda x: x[0], reverse=True)
-
-    # 점수가 모두 0일 수 있으니(키워드 미매칭) 그래도 상위 k는 뽑음
     return pick_with_diversity(scored, k=k)
 
 
@@ -364,9 +316,9 @@ def level_comment(level: str) -> str:
     return "이 영역에서의 어려움이 비교적 크게 보고되었습니다. 추천 시나리오로 단계적으로 연습해보세요."
 
 
-def validate_profile(name: str, age: int, gender: str) -> Tuple[bool, str]:
-    if not name.strip():
-        return False, "이름을 입력해주세요."
+def validate_profile(user_id_text: str, age: int, gender: str) -> Tuple[bool, str]:
+    if not user_id_text.strip():
+        return False, "ID를 입력해주세요."
     if age < 1 or age > 120:
         return False, "나이는 1~120 사이로 입력해주세요."
     if gender not in ["남", "여", "기타", "선택안함"]:
@@ -382,28 +334,153 @@ def validate_all_answered(responses: Dict[str, int]) -> Tuple[bool, List[str]]:
 # -----------------------------
 # Streamlit App
 # -----------------------------
-st.set_page_config(page_title="버디플랜", layout="centered")
+st.set_page_config(page_title="버디 플랜", layout="centered")
 init_db()
 
-# 사용자(간단): 세션별 UUID (로그인 없이 테스트용)
-if "user_id" not in st.session_state:
-    st.session_state.user_id = str(uuid.uuid4())
-USER_ID = st.session_state.user_id
+# 앱 상태(첫 화면 -> 검사/결과/기록)
+if "view" not in st.session_state:
+    st.session_state.view = "home"  # home | app
 
-# 1문항 진행 상태
+# 프로필(첫 화면에서 입력)
+if "profile" not in st.session_state:
+    st.session_state.profile = {"id": "", "age": 10, "gender": "선택안함"}
+
+# 검사 진행 상태
 if "step" not in st.session_state:
     st.session_state.step = 0
-
-# 응답 저장
 if "responses" not in st.session_state:
-    st.session_state.responses = {}  # { "P01": 1~6, ... }
+    st.session_state.responses = {}
 
-# 사용자 프로필
-if "profile" not in st.session_state:
-    st.session_state.profile = {"name": "", "age": 10, "gender": "선택안함"}
 
-st.title("버디플랜")
-st.caption("6가지 주요 사회성 요인을 분석하고,아이에게 맞는 사회 훈련을 추천해 드립니다.")
+# -----------------------------
+# CSS: 첫 화면을 첨부 이미지 느낌으로(간단 구현)
+# -----------------------------
+st.markdown(
+    """
+<style>
+/* 전체 배경 톤 */
+.stApp { background: #f6f8fb; }
+
+/* 중앙 카드 */
+.bp-wrap { max-width: 920px; margin: 0 auto; padding: 40px 12px; }
+.bp-card {
+  background: #ffffff;
+  border-radius: 22px;
+  padding: 34px 26px;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.06);
+}
+
+/* 타이틀 */
+.bp-title { font-size: 52px; font-weight: 900; color: #11a2ff; text-align: center; margin: 0; }
+.bp-sub { text-align: center; color: #6b7a90; font-size: 18px; line-height: 1.6; margin-top: 10px; }
+
+/* pill grid */
+.bp-pillbox {
+  background: #f4f7fb;
+  border-radius: 18px;
+  padding: 20px;
+  margin: 22px 0 18px 0;
+}
+.bp-pillrow { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+.bp-pill {
+  background: #ffffff;
+  border: 1px solid #e6eef8;
+  color: #2a3a52;
+  padding: 12px 18px;
+  border-radius: 999px;
+  font-weight: 700;
+  min-width: 150px;
+  text-align: center;
+}
+
+/* 입력 박스 */
+.bp-form { margin-top: 12px; }
+.bp-help { color: #7b8aa3; font-size: 13px; margin-top: 6px; text-align:center; }
+
+/* 시작 버튼 느낌(스트림릿 기본 버튼을 감싸기 때문에 완전 동일하진 않지만 톤은 맞춤) */
+div.stButton > button {
+  width: 240px;
+  height: 58px;
+  border-radius: 999px;
+  font-size: 18px;
+  font-weight: 800;
+  background: #11a2ff;
+  border: 0;
+  color: white;
+  box-shadow: 0 12px 22px rgba(17,162,255,0.25);
+}
+div.stButton > button:hover { background: #0b94ee; }
+</style>
+""",
+    unsafe_allow_html=True,
+)
+
+
+# -----------------------------
+# 1) 첫 화면(Home)
+# -----------------------------
+if st.session_state.view == "home":
+    st.markdown('<div class="bp-wrap"><div class="bp-card">', unsafe_allow_html=True)
+
+    st.markdown('<h1 class="bp-title">버디 플랜</h1>', unsafe_allow_html=True)
+    st.markdown(
+        '<div class="bp-sub">6가지 주요 사회성 요인을 분석하고,<br/>아이에게 맞는 사회 훈련을 추천해 드립니다.</div>',
+        unsafe_allow_html=True,
+    )
+
+    # pill 영역(디자인 요소)
+    st.markdown('<div class="bp-pillbox"><div class="bp-pillrow">', unsafe_allow_html=True)
+    st.markdown('<div class="bp-pill">정서 조절</div>', unsafe_allow_html=True)
+    st.markdown('<div class="bp-pill">공감 능력</div>', unsafe_allow_html=True)
+    st.markdown('<div class="bp-pill">사회적 자기주장</div>', unsafe_allow_html=True)
+    st.markdown('</div><div class="bp-pillrow" style="margin-top:10px;">', unsafe_allow_html=True)
+    st.markdown('<div class="bp-pill">협동성</div>', unsafe_allow_html=True)
+    st.markdown('<div class="bp-pill">책임감</div>', unsafe_allow_html=True)
+    st.markdown('<div class="bp-pill">사교성</div>', unsafe_allow_html=True)
+    st.markdown('</div></div>', unsafe_allow_html=True)
+
+    # 입력 폼
+    st.markdown('<div class="bp-form">', unsafe_allow_html=True)
+    c1, c2, c3 = st.columns([2, 1, 1])
+    with c1:
+        user_id_text = st.text_input("ID", value=st.session_state.profile["id"], placeholder="예: A001 또는 보호자 지정 ID")
+    with c2:
+        age = st.number_input("나이", min_value=1, max_value=120, value=int(st.session_state.profile["age"]))
+    with c3:
+        gender = st.selectbox("성별", options=["선택안함", "남", "여", "기타"],
+                              index=["선택안함", "남", "여", "기타"].index(st.session_state.profile["gender"]))
+
+    st.session_state.profile = {"id": user_id_text, "age": int(age), "gender": gender}
+    ok, msg = validate_profile(user_id_text, int(age), gender)
+    if not ok:
+        st.markdown(f'<div class="bp-help">{msg}</div>', unsafe_allow_html=True)
+    else:
+        st.markdown('<div class="bp-help">입력이 완료되면 아래 버튼을 눌러 평가를 시작하세요.</div>', unsafe_allow_html=True)
+
+    st.markdown("</div>", unsafe_allow_html=True)
+
+    # 시작 버튼
+    st.markdown("<div style='display:flex; justify-content:center; margin-top:18px;'>", unsafe_allow_html=True)
+    if st.button("평가 시작하기", disabled=not ok):
+        # 새 평가 시작: 응답/진행 초기화
+        st.session_state.responses = {}
+        st.session_state.step = 0
+        st.session_state.view = "app"
+        st.rerun()
+    st.markdown("</div>", unsafe_allow_html=True)
+
+    st.markdown("</div></div>", unsafe_allow_html=True)
+    st.stop()
+
+
+# -----------------------------
+# 2) 본 앱 화면(검사/결과/기록)
+# -----------------------------
+# 입력 ID를 “사용자 키”로 사용(저장 기준)
+USER_ID = st.session_state.profile["id"].strip()
+
+st.title("사회성 6요인 평가")
+st.caption("점수가 높을수록 해당 영역의 어려움이 큰 것으로 해석합니다.")
 
 tab1, tab2, tab3 = st.tabs(["검사(1문항씩)", "결과/추천", "내 기록"])
 
@@ -412,112 +489,87 @@ tab1, tab2, tab3 = st.tabs(["검사(1문항씩)", "결과/추천", "내 기록"]
 # 탭 1: 검사(1문항씩)
 # -----------------------------
 with tab1:
-    st.subheader("1) 사용자 정보")
-    c1, c2, c3 = st.columns([2, 1, 1])
-    with c1:
-        name = st.text_input("이름", value=st.session_state.profile["name"])
-    with c2:
-        age = st.number_input("나이", min_value=1, max_value=120, value=int(st.session_state.profile["age"]))
-    with c3:
-        gender = st.selectbox("성별", options=["선택안함", "남", "여", "기타"], index=["선택안함", "남", "여", "기타"].index(st.session_state.profile["gender"]))
-
-    st.session_state.profile = {"name": name, "age": int(age), "gender": gender}
-
-    ok_profile, profile_msg = validate_profile(name, int(age), gender)
-    if not ok_profile:
-        st.info(profile_msg)
-
-    st.divider()
-    st.subheader("2) 문항 응답")
-    st.write("점수가 높을수록 해당 영역의 **어려움이 큰 것**으로 해석합니다.")
+    st.subheader("검사 진행")
+    st.caption(f"ID: {USER_ID} / 나이: {st.session_state.profile['age']} / 성별: {st.session_state.profile['gender']}")
 
     total = len(QUESTIONS)
     step = int(st.session_state.step)
     step = max(0, min(total - 1, step))
     st.session_state.step = step
 
-    # 진행률
     st.caption(f"진행: {step+1}/{total}")
     st.progress((step + 1) / total)
 
     q = QUESTIONS[step]
     qid = q["id"]
 
-    # 라디오 옵션
     options = [int(s["value"]) for s in SCALE]
     labels = {int(s["value"]): f'{s["value"]} · {s["label"]}' for s in SCALE}
 
     default_val = int(st.session_state.responses.get(qid, 1))
     default_idx = options.index(default_val) if default_val in options else 0
 
-    # 문항 표시 (questions는 유일화되어 key 충돌 없음)
     val = st.radio(
         f'{qid}. {q["text"]}',
         options=options,
         index=default_idx,
         format_func=lambda v: labels[v],
         horizontal=True,
-        key=f"q_{qid}",
+        key=f"q_{qid}",  # questions가 유일하므로 충돌 없음
     )
     st.session_state.responses[qid] = int(val)
 
-    # 네비게이션 버튼
     b1, b2, b3, b4 = st.columns([1, 1, 1, 1])
-
     with b1:
         if st.button("처음으로"):
             st.session_state.step = 0
             st.rerun()
-
     with b2:
         if st.button("이전", disabled=(step == 0)):
             st.session_state.step = max(0, step - 1)
             st.rerun()
-
     with b3:
         if st.button("다음", disabled=(step >= total - 1)):
             st.session_state.step = min(total - 1, step + 1)
             st.rerun()
 
     with b4:
-        # 마지막 문항에서만 제출 가능
-        can_submit = (step == total - 1) and ok_profile
+        can_submit = (step == total - 1)
         if st.button("제출", type="primary", disabled=(not can_submit)):
-            # 누락 응답 체크
             ok_answers, missing = validate_all_answered(st.session_state.responses)
             if not ok_answers:
                 st.error(f"아직 응답하지 않은 문항이 있습니다. (예: {missing[:5]})")
                 st.stop()
 
-            # 요인 점수 계산 (factors.json 그대로 사용)
-            factor_scores_dc = []
             factor_scores = score_factors(st.session_state.responses)
-
-            # score_factors가 dataclass(또는 유사)를 반환할 수 있으므로 안전 변환
+            factor_scores_dc: List[Dict[str, Any]] = []
             for fs in factor_scores:
+                # logic.py의 FactorScore(dataclass)를 가정
                 if hasattr(fs, "__dict__") and "name" in fs.__dict__:
-                    d = {"factorName": fs.name, "mean": fs.mean, "percent": fs.percent, "level": fs.level}
+                    factor_scores_dc.append(
+                        {"factorName": fs.name, "mean": fs.mean, "percent": fs.percent, "level": fs.level}
+                    )
                 elif isinstance(fs, dict):
-                    # 혹시 dict 형태라면
-                    d = {"factorName": fs.get("name") or fs.get("factorName"), "mean": fs.get("mean"), "percent": fs.get("percent"), "level": fs.get("level")}
+                    factor_scores_dc.append(
+                        {
+                            "factorName": fs.get("name") or fs.get("factorName"),
+                            "mean": fs.get("mean"),
+                            "percent": fs.get("percent"),
+                            "level": fs.get("level"),
+                        }
+                    )
                 else:
-                    # 마지막 안전장치
-                    d = {"factorName": str(fs), "mean": 0, "percent": 0, "level": "낮음"}
-                factor_scores_dc.append(d)
+                    factor_scores_dc.append({"factorName": str(fs), "mean": 0, "percent": 0, "level": "낮음"})
 
-            # 상위 요인(어려움 큰 순)
             top_factors_dc = factor_scores_dc[:2]
             top_factor_names = [t["factorName"] for t in top_factors_dc if t.get("factorName")]
 
-            # 추천(고도화: 코드+태그+다양성)
             recommended_ids = recommend_scenarios_advanced(top_factor_names, k=3)
 
-            # DB 저장
             rid = insert_assessment(
                 user_id=USER_ID,
-                user_name=st.session_state.profile["name"],
                 user_age=int(st.session_state.profile["age"]),
-                user_gender=st.session_state.profile["gender"],
+                user_gender=str(st.session_state.profile["gender"]),
                 responses=st.session_state.responses,
                 factor_scores=factor_scores_dc,
                 top_factors=top_factors_dc,
@@ -535,11 +587,10 @@ with tab2:
     st.subheader("최근 결과")
     latest = latest_assessment(USER_ID)
     if not latest:
-        st.warning("저장된 결과가 없습니다. 먼저 '검사(1문항씩)' 탭에서 제출해주세요.")
+        st.warning("저장된 결과가 없습니다. 먼저 검사 탭에서 제출해주세요.")
     else:
         st.write(f"저장 시간: {latest['created_at']}")
-        if latest.get("user_name"):
-            st.caption(f"사용자: {latest.get('user_name')} / {latest.get('user_age')}세 / {latest.get('user_gender')}")
+        st.caption(f"ID: {USER_ID} / 나이: {latest.get('user_age')} / 성별: {latest.get('user_gender')}")
 
         st.divider()
         st.markdown("### 6요인 점수 (점수가 높을수록 어려움이 큼)")
@@ -594,7 +645,6 @@ with tab2:
 # -----------------------------
 with tab3:
     st.subheader("내 기록")
-    st.caption("로그인 없이 테스트용으로, 현재 세션의 사용자ID 기준으로 저장된 기록을 보여줍니다.")
     rows = list_assessments(USER_ID, limit=30)
     if not rows:
         st.info("저장된 기록이 없습니다.")
@@ -602,19 +652,18 @@ with tab3:
         for r in rows:
             top = r["top_factors"] or []
             top_text = ", ".join([f"{t['factorName']}({t['mean']}점/{t['level']})" for t in top])
-            profile_text = ""
-            if r.get("user_name"):
-                profile_text = f" · {r.get('user_name')} / {r.get('user_age')}세 / {r.get('user_gender')}"
-            st.write(f"- 검사 #{r['id']} · {r['created_at']}{profile_text} · 상위 영역: {top_text}")
+            st.write(
+                f"- 검사 #{r['id']} · {r['created_at']} · 나이:{r.get('user_age')} · 성별:{r.get('user_gender')} · 상위 영역: {top_text}"
+            )
 
     st.divider()
     c1, c2 = st.columns([1, 1])
     with c1:
-        if st.button("응답 초기화(처음부터 다시)"):
-            st.session_state.step = 0
-            st.session_state.responses = {}
+        if st.button("처음 화면으로"):
+            st.session_state.view = "home"
             st.rerun()
     with c2:
-        if st.button("프로필 초기화"):
-            st.session_state.profile = {"name": "", "age": 10, "gender": "선택안함"}
+        if st.button("응답 초기화(다시 검사)"):
+            st.session_state.step = 0
+            st.session_state.responses = {}
             st.rerun()
