@@ -382,7 +382,7 @@ def validate_all_answered(responses: Dict[str, int]) -> Tuple[bool, List[str]]:
 # -----------------------------
 # Streamlit App
 # -----------------------------
-st.set_page_config(page_title="사회성 6요인 검사", layout="centered")
+st.set_page_config(page_title="버디플랜", layout="centered")
 init_db()
 
 # 사용자(간단): 세션별 UUID (로그인 없이 테스트용)
@@ -403,7 +403,7 @@ if "profile" not in st.session_state:
     st.session_state.profile = {"name": "", "age": 10, "gender": "선택안함"}
 
 st.title("사회성 6요인 검사")
-st.caption("30문항(1~6점) 기반으로 6요인 '어려움' 수준을 계산하고, 결과에 맞는 사회적 시나리오를 추천합니다.")
+st.caption("6가지 주요 사회성 요인을 분석하고,아이에게 맞는 사회 훈련을 추천해 드립니다.")
 
 tab1, tab2, tab3 = st.tabs(["검사(1문항씩)", "결과/추천", "내 기록"])
 
